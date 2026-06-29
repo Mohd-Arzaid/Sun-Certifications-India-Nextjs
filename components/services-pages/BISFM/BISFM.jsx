@@ -551,9 +551,131 @@ const ProcessSection = () => (
     </ServiceParagraph>
   </div>
 );
-const CostingSection = () => <></>;
-const SurveillanceSection = () => <></>;
-const FacilitatorSection = () => <></>;
+const CostingSection = () => (
+  <div className="flex flex-col gap-5">
+    <SectionHeadingTwo>
+      BIS Certification Cost Structure Explained
+    </SectionHeadingTwo>
+
+    <SectionHeadingThree>
+      Overview of BIS Certification Costs
+    </SectionHeadingThree>
+
+    <ServiceParagraph>
+      Securing a BIS certificate under the Foreign Manufacturers Certification
+      Scheme (FMCS) involves several types of costs. These cover everything from
+      application submission and audits to product testing and mark usage.
+    </ServiceParagraph>
+
+    <ServiceParagraph>
+      Foreign manufacturers must budget adequately to ensure timely payments, as
+      failure to pay can lead to rejection of BIS certification mid-way.
+    </ServiceParagraph>
+
+    <ServiceTable
+      className="mt-2"
+      headers={["COST CATEGORY", "DESCRIPTION"]}
+      rows={[
+        [
+          "Application Fee (INR 1000)",
+          "Paid during submission of the FMCS application form for obtaining Indian BIS",
+        ],
+        [
+          "Audit Charges (INR 7000)",
+          "Covers BIS auditor travel, man-day rates, and related expenses",
+        ],
+        [
+          "Product Testing Fees (As per product)",
+          "For testing sealed samples at BIS-recognized labs in India",
+        ],
+        [
+          "License Fee (INR 1000)",
+          "One-time fee paid upon grant of BIS certificate",
+        ],
+        [
+          "Marking Fee (As per product)",
+          "Annual fee for usage of the ISI mark on certified products",
+        ],
+        [
+          "Performance Bank Guarantee (USD 10,000)",
+          "Financial guarantee deposited via Indian bank to ensure compliance",
+        ],
+      ]}
+    />
+  </div>
+);
+const SurveillanceSection = () => (
+  <div className="flex flex-col gap-5">
+    <SectionHeadingTwo>
+      Post BIS Certification Surveillance and Compliance Requirements
+    </SectionHeadingTwo>
+
+    <ServiceParagraph>
+      Once a BIS certificate is granted, the responsibility doesn&apos;t end
+      there. The BIS certification includes an ongoing surveillance and
+      compliance system to ensure continuous adherence to Indian standards. This
+      post-certification phase is crucial to maintaining your BIS license,
+      retaining the right to use the ISI mark, and avoiding legal penalties or
+      suspensions.
+    </ServiceParagraph>
+
+    <ServiceParagraph>
+      Key Surveillance Components after obtaining BIS certificate Market
+      Surveillance : Random product sampling from the Indian market for
+      independent lab testing , if the sample fails the BIS certificate is
+      suspended. It is done twice every year.
+    </ServiceParagraph>
+  </div>
+);
+
+const FacilitatorSection = () => (
+  <div className="flex flex-col gap-5">
+    <SectionHeadingTwo>
+      Why Choose a BIS Certification Consultant?
+    </SectionHeadingTwo>
+
+    <ServiceParagraph>
+      The BIS certification under the FMCS registration scheme is intricate,
+      highly technical, and time-sensitive. While it is possible to pursue
+      certification independently, most successful foreign manufacturers rely on
+      BIS consultants to streamline the journey and minimize risks.
+    </ServiceParagraph>
+
+    <SectionHeadingThree>What Does a BIS Consultant Do?</SectionHeadingThree>
+
+    <ServiceParagraph>
+      A BIS certification consultant provides end-to-end guidance across every
+      step of the process. Their core responsibilities include:
+    </ServiceParagraph>
+
+    <ServiceTable
+      className="mt-2"
+      headers={["TASK", "DESCRIPTION"]}
+      rows={[
+        [
+          "Documentation",
+          "Prepares, reviews, and formats all required documents",
+        ],
+        ["Application Support", "Submits and tracks your BIS application"],
+        ["Audit Preparation", "Guides factory teams to ensure audit readiness"],
+        [
+          "Sample Coordination",
+          "Manages sealing and shipment of samples to India",
+        ],
+        ["Testing Assistance", "Liaises with labs and helps interpret results"],
+        [
+          "Renewal & Surveillance",
+          "Oversees license extensions and compliance checks",
+        ],
+      ]}
+    />
+
+    <ServiceParagraph>
+      They act as your strategic partner, often doubling as your Authorized
+      Indian Representative (AIR).
+    </ServiceParagraph>
+  </div>
+);
 
 const sections = [
   {
