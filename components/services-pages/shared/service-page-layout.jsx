@@ -5,6 +5,8 @@ import { ServiceSeparator } from "./service-content";
 import ServiceSection from "./service-section";
 import { Fragment } from "react";
 import ServiceRightSideContent from "./service-right-side-content";
+import ServiceFaq from "./service-faq";
+import Author from "../../common/author";
 
 const ServicePageLayout = ({
   breadcrumbLabel,
@@ -41,6 +43,7 @@ const ServicePageLayout = ({
                   </ServiceSection>
                 </Fragment>
               ))}
+              <Author />
             </div>
           </div>
 
@@ -48,6 +51,7 @@ const ServicePageLayout = ({
           <ServiceRightSideContent />
         </div>
       </div>
+      {faqs?.length > 0 && <ServiceFaq faqs={faqs} />}
     </div>
   );
 };

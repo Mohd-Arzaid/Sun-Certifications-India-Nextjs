@@ -883,6 +883,7 @@ const BISFM = () => {
       hero={hero}
       intro={intro}
       sections={sections}
+      faqs={faqs}
     />
   );
 };
