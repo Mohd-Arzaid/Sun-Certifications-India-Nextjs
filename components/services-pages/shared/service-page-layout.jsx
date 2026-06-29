@@ -4,6 +4,7 @@ import ServiceIndex from "./service-index";
 import { ServiceSeparator } from "./service-content";
 import ServiceSection from "./service-section";
 import { Fragment } from "react";
+import ServiceRightSideContent from "./service-right-side-content";
 
 const ServicePageLayout = ({
   breadcrumbLabel,
@@ -11,6 +12,7 @@ const ServicePageLayout = ({
   intro,
   sections,
   faqs,
+  languages,
 }) => {
   // basically agar faqs hai toh sections ke end mai FAQs add kardenge in index
   const sectionsWithFaqs =
@@ -41,6 +43,9 @@ const ServicePageLayout = ({
               ))}
             </div>
           </div>
+
+          {/* Right Side */}
+          <ServiceRightSideContent />
         </div>
       </div>
     </div>
