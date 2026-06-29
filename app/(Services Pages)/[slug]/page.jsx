@@ -3,6 +3,7 @@ import BISFM from "@/components/services-pages/BISFM/BISFM";
 import BISCertification from "@/components/services-pages/BISCertification/BISCertification";
 import ISIMark from "@/components/services-pages/ISIMark/ISIMark";
 import { BISFM_SEO_META_TAGS } from "@/components/services-pages/BISFM/bisfm-seo-meta-tags";
+import AuthorizedIndianRepresentativeAIR from "@/components/services-pages/AIR/AuthorizedIndianRepresentativeAIR";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -14,6 +15,9 @@ const SERVICES = {
   },
   "a-guide-to-bis-certification-indian-bis": {
     component: ISIMark,
+  },
+  "authorized-indian-representative": {
+    component: AuthorizedIndianRepresentativeAIR,
   },
 };
 
