@@ -486,6 +486,7 @@ const DocumentSection = () => (
     />
   </div>
 );
+
 const ProcessSection = () => (
   <div className="flex flex-col gap-5">
     <SectionHeadingTwo>
@@ -532,7 +533,7 @@ const ProcessSection = () => (
       src={BISCertificateImage}
       alt="Sample BIS FMCS certificate"
       title="Sample BIS FMCS certificate"
-      className="w-full h-auto rounded-lg shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 my-8 mx-auto"
+      className="w-full h-auto rounded-lg border border-gray-200 hover:shadow-lg transition-shadow duration-300 my-4 mx-auto"
     />
 
     <SectionHeadingThree>
@@ -551,6 +552,7 @@ const ProcessSection = () => (
     </ServiceParagraph>
   </div>
 );
+
 const CostingSection = () => (
   <div className="flex flex-col gap-5">
     <SectionHeadingTwo>
@@ -799,6 +801,81 @@ const faqs = [
   },
 ];
 
+const languages = [
+  {
+    code: "zh",
+    name: "Chinese",
+    flag: "https://flagcdn.com/w320/cn.png",
+    path: "/zh/wai-guo-sheng-chan-shang-yin-du-bis-ren-zheng-zhi-nan",
+  },
+  {
+    code: "de",
+    name: "German",
+    flag: "https://flagcdn.com/w320/de.png",
+    path: "/de/leitfaden-zur-bis-zertifizierung-fuer-auslaendische-hersteller-indisches-bis",
+  },
+  {
+    code: "nl",
+    name: "Dutch",
+    flag: "https://flagcdn.com/w320/nl.png",
+    path: "/nl/gids-voor-bis-certificering-voor-buitenlandse-fabrikanten-indiaas-bis",
+  },
+  {
+    code: "ja",
+    name: "Japanese",
+    flag: "https://flagcdn.com/w320/jp.png",
+    path: "/ja/bis-nintei-gaikoku-seizousha-no-tame-no-gaido-india-no-bis",
+  },
+  {
+    code: "ko",
+    name: "Korean",
+    flag: "https://flagcdn.com/w320/kr.png",
+    path: "/ko/indo-bis-waeoe-jejo-eopeul-wihan-bis-injeung-gaideu",
+  },
+  {
+    code: "fr",
+    name: "French",
+    flag: "https://flagcdn.com/w320/fr.png",
+    path: "/fr/guide-certification-bis-pour-fabricants-etrangers-bis-inde",
+  },
+  {
+    code: "es",
+    name: "Spanish",
+    flag: "https://flagcdn.com/w320/es.png",
+    path: "/es/guia-certificacion-bis-para-fabricantes-extranjeros-bis-indio",
+  },
+  {
+    code: "th",
+    name: "Thai",
+    flag: "https://flagcdn.com/w320/th.png",
+    path: "/th/khumanam-kanraprong-bis-samrab-puuphlit-thangchat-bis-india",
+  },
+  {
+    code: "id",
+    name: "Indonesian",
+    flag: "https://flagcdn.com/w320/id.png",
+    path: "/id/panduan-sertifikasi-bis-untuk-produsen-asing-bis-india",
+  },
+  {
+    code: "it",
+    name: "Italian",
+    flag: "https://flagcdn.com/w320/it.png",
+    path: "/it/guida-alla-certificazione-bis-per-produttori-stranieri-bis-indiano",
+  },
+  {
+    code: "ar",
+    name: "Arabic",
+    flag: "https://flagcdn.com/w320/sa.png",
+    path: "/ar/dalil-shahadat-bis-lilmusanein-alajnabiyin-bis-alhind",
+  },
+  {
+    code: "vi",
+    name: "Vietnamese",
+    flag: "https://flagcdn.com/w320/vn.png",
+    path: "/vi/huong-dan-chung-nhan-bis-cho-nha-san-xuat-nuoc-ngoai-bis-an-do",
+  },
+];
+
 const BISFM = () => {
   return (
     <ServicePageLayout
@@ -806,6 +883,8 @@ const BISFM = () => {
       hero={hero}
       intro={intro}
       sections={sections}
+      faqs={faqs}
+      languages={languages}
     />
   );
 };

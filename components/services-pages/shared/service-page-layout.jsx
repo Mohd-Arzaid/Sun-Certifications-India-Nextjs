@@ -4,6 +4,10 @@ import ServiceIndex from "./service-index";
 import { ServiceSeparator } from "./service-content";
 import ServiceSection from "./service-section";
 import { Fragment } from "react";
+import ServiceRightSideContent from "./service-right-side-content";
+import ServiceFaq from "./service-faq";
+import Author from "../../common/author";
+import ServiceLanguageSelector from "./service-language-selector";
 
 const ServicePageLayout = ({
   breadcrumbLabel,
@@ -11,6 +15,7 @@ const ServicePageLayout = ({
   intro,
   sections,
   faqs,
+  languages,
 }) => {
   // basically agar faqs hai toh sections ke end mai FAQs add kardenge in index
   const sectionsWithFaqs =
@@ -39,10 +44,16 @@ const ServicePageLayout = ({
                   </ServiceSection>
                 </Fragment>
               ))}
+              <Author />
             </div>
           </div>
+
+          {/* Right Side */}
+          <ServiceRightSideContent />
         </div>
       </div>
+      {faqs?.length > 0 && <ServiceFaq faqs={faqs} />}
+      {languages?.length > 0 && <ServiceLanguageSelector languages={languages} />}
     </div>
   );
 };

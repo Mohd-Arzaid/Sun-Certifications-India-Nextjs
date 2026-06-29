@@ -207,7 +207,7 @@ export const ServiceTable = ({
 export const ServiceRightSideCard = ({ children, className }) => (
   <div
     className={cn(
-      "w-full md:w-[360px] rounded-lg shadow-[0_1px_5px_-4px_rgba(19,19,22,0.7),0_4px_8px_rgba(32,42,54,0.05)] ring-1 ring-gray-900/[0.075] transition-shadow hover:shadow-[0_1px_7px_-4px_rgba(19,19,22,0.8),0_4px_11px_rgba(32,42,54,0.05)] hover:ring-gray-900/[0.125] font-inter",
+      "w-full md:w-[360px] rounded-lg shadow-[0_1px_5px_-4px_rgba(19,19,22,0.7),0_4px_8px_rgba(32,42,54,0.05)] ring-1 ring-gray-900/[0.075] transition-shadow hover:shadow-[0_1px_7px_-4px_rgba(19,19,22,0.8),0_4px_11px_rgba(32,42,54,0.05)] hover:ring-gray-900/[0.125]",
       className
     )}
   >
@@ -219,17 +219,10 @@ export const ServiceRightSideHeading = ({
   icon: Icon,
   children,
   className,
-  iconClassName,
-  titleClassName,
 }) => (
   <div className={cn("flex gap-2 items-center", className)}>
-    <Icon className={cn("text-neutral-800 size-5", iconClassName)} />
-    <div
-      className={cn(
-        "text-base font-medium text-neutral-800 font-inter",
-        titleClassName
-      )}
-    >
+    <Icon className="text-[#232327]" />
+    <div className="text-xl font-geist font-semibold text-[#232327]">
       {children}
     </div>
   </div>
