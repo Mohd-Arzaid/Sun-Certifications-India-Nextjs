@@ -32,7 +32,7 @@ export const ServiceIndexHeading = ({ children, className }) => (
 export const SectionHeadingTwo = ({ as: Tag = "h2", children, className }) => (
   <Tag
     className={cn(
-      "text-2xl md:text-3xl font-inter font-bold text-neutral-800",
+      "text-[28px] md:text-[40px] font-roboto font-bold text-[#131316] leading-none md:leading-[1.1]",
       className
     )}
   >
@@ -56,7 +56,7 @@ export const SectionHeadingThree = ({
 }) => (
   <Tag
     className={cn(
-      "font-semibold font-inter text-base md:text-lg text-neutral-800",
+      "font-semibold font-geist text-[16px] md:text-[20px] leading-[24px] md:leading-[28px] text-[#131316]",
       className
     )}
   >
@@ -67,7 +67,7 @@ export const SectionHeadingThree = ({
 export const ServiceParagraph = ({ children, className }) => (
   <p
     className={cn(
-      "font-inter text-sm md:text-base text-neutral-600",
+      "font-geist text-sm md:text-lg text-[#42434d] tracking-wide text-left max-w-full leading-[22px] md:leading-[28px]",
       className
     )}
   >
@@ -120,7 +120,7 @@ export const ServiceList = ({ as: Tag = "p", points, className }) => (
               {text}
             </Link>
           ) : (
-            <Tag className="font-inter text-sm md:text-base text-neutral-600  text-left max-w-full flex-1">
+            <Tag className="font-geist text-sm md:text-lg text-[#42434d] tracking-[0.01em] text-left max-w-full leading-[22px] md:leading-[28px] flex-1">
               {text}
             </Tag>
           )}
@@ -144,7 +144,7 @@ export const ServiceTable = ({
   <div className={cn("overflow-x-auto", className)}>
     <Table
       className={cn(
-        "min-w-full border border-neutral-200 rounded-lg overflow-hidden",
+        "min-w-full border border-gray-200 rounded-lg overflow-hidden",
         tableClassName
       )}
     >
@@ -159,8 +159,8 @@ export const ServiceTable = ({
             <TableHead
               key={index}
               className={cn(
-                "font-semibold font-inter text-left text-sm md:text-base  px-4 md:px-6 py-3 md:py-4 text-neutral-800",
-                index < headers.length - 1 && "border-r border-neutral-200",
+                "font-semibold font-geist text-left text-base md:text-lg px-4 md:px-6 py-3 md:py-4 text-[#1E1E1E]",
+                index < headers.length - 1 && "border-r border-gray-300",
                 headerCellClassName
               )}
             >
@@ -174,7 +174,7 @@ export const ServiceTable = ({
           <TableRow
             key={rowIndex}
             className={cn(
-              "hover:bg-neutral-50 transition-colors",
+              "hover:bg-gray-50 transition-colors",
               bodyRowClassName
             )}
           >
@@ -185,11 +185,9 @@ export const ServiceTable = ({
                 <TableCell
                   key={cellIndex}
                   className={cn(
-                    "font-inter text-sm md:text-base px-4 md:px-6 py-3 md:py-4",
-                    isEmphasized
-                      ? "font-medium text-neutral-800"
-                      : "text-neutral-600",
-                    !isLastColumn && "border-r border-neutral-200",
+                    "font-geist text-sm md:text-base px-4 md:px-6 py-3 md:py-4 text-[#42434d]",
+                    isEmphasized && "font-medium",
+                    isEmphasized && !isLastColumn && "border-r border-gray-200",
                     bodyCellClassName
                   )}
                 >
