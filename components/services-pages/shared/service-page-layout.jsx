@@ -35,7 +35,9 @@ const ServicePageLayout = ({
           {/* Left Side */}
           <div className="flex-1">
             <div className="flex flex-col gap-6 md:gap-9">
-              {intro}
+              {intro && (
+                <div className="flex flex-col gap-6">{intro}</div>
+              )}
               {intro && <ServiceSeparator />}
               {sections.map((section, index) => (
                 <Fragment key={section.id}>

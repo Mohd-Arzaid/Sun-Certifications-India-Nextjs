@@ -22,7 +22,7 @@ const hero = {
 };
 
 const intro = (
-  <div className="flex flex-col gap-6">
+  <>
     <SectionHeadingTwo as="h1">
       BIS Certification under FMCS Scheme
     </SectionHeadingTwo>
@@ -61,11 +61,11 @@ const intro = (
       compliance, documentation and communication with the Bureau of Indian
       Standards.
     </ServiceParagraph>
-  </div>
+  </>
 );
 
 const OverviewSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>
       What is Foreign Manufacturers Certification Scheme (BIS FMCS)
     </SectionHeadingTwo>
@@ -141,11 +141,11 @@ const OverviewSection = () => (
         ],
       ]}
     />
-  </div>
+  </>
 );
 
 const StandardizationSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>
       BIS Mark: Compliance Requirements, Usage Rules, and Legal Guidelines
     </SectionHeadingTwo>
@@ -234,11 +234,11 @@ const StandardizationSection = () => (
       Unlike UL (voluntary) or CE (region-specific), the ISI mark under the BIS
       registration scheme is both compulsory and locally enforced.
     </ServiceParagraph>
-  </div>
+  </>
 );
 
 const RepresentationSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>
       Role of Authorized Indian Representative (AIR) in BIS Certification
     </SectionHeadingTwo>
@@ -339,10 +339,10 @@ const RepresentationSection = () => (
       A proactive and experienced AIR significantly increases the chance of
       successful BIS certification.
     </ServiceParagraph>
-  </div>
+  </>
 );
 const DocumentSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>
       Documentation Required for BIS Certification under FMCS
     </SectionHeadingTwo>
@@ -484,11 +484,11 @@ const DocumentSection = () => (
         "Naming inconsistencies between documents",
       ]}
     />
-  </div>
+  </>
 );
 
 const ProcessSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>
       Step-by-Step BIS Certification Process Under FMCS
     </SectionHeadingTwo>
@@ -550,11 +550,11 @@ const ProcessSection = () => (
       submission. Delays often occur when documents are unclear or if the
       factory isn&apos;t audit ready.
     </ServiceParagraph>
-  </div>
+  </>
 );
 
 const CostingSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>
       BIS Certification Cost Structure Explained
     </SectionHeadingTwo>
@@ -604,10 +604,10 @@ const CostingSection = () => (
         ],
       ]}
     />
-  </div>
+  </>
 );
 const SurveillanceSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>
       Post BIS Certification Surveillance and Compliance Requirements
     </SectionHeadingTwo>
@@ -627,11 +627,11 @@ const SurveillanceSection = () => (
       independent lab testing , if the sample fails the BIS certificate is
       suspended. It is done twice every year.
     </ServiceParagraph>
-  </div>
+  </>
 );
 
 const FacilitatorSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>
       Why Choose a BIS Certification Consultant?
     </SectionHeadingTwo>
@@ -676,7 +676,7 @@ const FacilitatorSection = () => (
       They act as your strategic partner, often doubling as your Authorized
       Indian Representative (AIR).
     </ServiceParagraph>
-  </div>
+  </>
 );
 
 const sections = [

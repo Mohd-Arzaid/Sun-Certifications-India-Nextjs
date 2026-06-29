@@ -19,7 +19,7 @@ const hero = {
 };
 
 const OverviewSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo as="h1">
       BIS Certification in India | Complete Guide
     </SectionHeadingTwo>
@@ -145,11 +145,11 @@ const OverviewSection = () => (
       electric appliances can lead to fires. Therefore, by having a BIS
       certification, the government makes sure these challenges are addressed.
     </ServiceParagraph>
-  </div>
+  </>
 );
 
 const SchemesSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>BIS Certification Schemes</SectionHeadingTwo>
 
     <ServiceParagraph>
@@ -514,11 +514,11 @@ const SchemesSection = () => (
         "Participation in Tenders: many government projects award contracts for goods which are BIS certified.",
       ]}
     />
-  </div>
+  </>
 );
 
 const ProcessSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>Procedure for Obtaining BIS Certification</SectionHeadingTwo>
 
     <ServiceParagraph>
@@ -540,11 +540,11 @@ const ProcessSection = () => (
         "Grant of Licence: If all requirements are met, BIS grants the certification licence to the manufacturer.",
       ]}
     />
-  </div>
+  </>
 );
 
 const DocumentsSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>Documents Required for BIS Certification</SectionHeadingTwo>
 
     <ServiceParagraph>
@@ -574,11 +574,11 @@ const DocumentsSection = () => (
         "Proof of representation and identity documents.",
       ]}
     />
-  </div>
+  </>
 );
 
 const CostSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>BIS Certification Cost</SectionHeadingTwo>
 
     <ServiceTable
@@ -652,11 +652,11 @@ const CostSection = () => (
       Manufacturers Certification Scheme (FMCS). The exact cost structure
       depends on the specific case and applicable requirements.
     </ServiceParagraph>
-  </div>
+  </>
 );
 
 const AIRSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>
       Role of Authorized Indian Representative (AIR)
     </SectionHeadingTwo>
@@ -679,11 +679,11 @@ const AIRSection = () => (
       In the absence of an AIR, obtaining BIS certification for foreign
       companies is impossible.
     </ServiceParagraph>
-  </div>
+  </>
 );
 
 const ConclusionSection = () => (
-  <div className="flex flex-col gap-5">
+  <>
     <SectionHeadingTwo>Conclusion</SectionHeadingTwo>
 
     <ServiceParagraph>
@@ -704,7 +704,7 @@ const ConclusionSection = () => (
       investment in safety, consumer trust, brand reputation, credibility, and
       long-term growth.
     </ServiceParagraph>
-  </div>
+  </>
 );
 
 const sections = [
