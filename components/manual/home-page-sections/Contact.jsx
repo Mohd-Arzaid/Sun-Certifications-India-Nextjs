@@ -80,11 +80,6 @@ text-[#595959]   text-[17px]     md:text-[20px]    font-poppins  font-semibold  
             alt="Home Page Contact Us Image"
             title="Home Page Contact Us Image"
             className="absolute right-0 w-[475.99px] h-[539px] object-cover"
-            width={476}
-            height={539}
-            loading="lazy"
-            decoding="async"
-            fetchpriority="low"
           />
 
           <img
@@ -93,11 +88,6 @@ text-[#595959]   text-[17px]     md:text-[20px]    font-poppins  font-semibold  
             title="Home Page Contact Child Image"
             className=" 
           absolute inset-0 w-[350px] h-[350px] -translate-x-[70px] translate-y-[180px] object-cover"
-            width={350}
-            height={350}
-            loading="lazy"
-            decoding="async"
-            fetchpriority="low"
           />
         </div>
       </div>
