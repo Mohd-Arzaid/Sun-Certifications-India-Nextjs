@@ -1,6 +1,10 @@
+import ServicePageLayout from "../shared/service-page-layout";
+
 const BISFM = () => {
   return (
-    <div>BISFM</div>
+    <ServicePageLayout 
+    breadcrumbLabel="BISFM"
+    />
   );
 };
 
