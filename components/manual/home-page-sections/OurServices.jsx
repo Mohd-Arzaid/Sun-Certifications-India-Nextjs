@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState, useCallback, useMemo, memo } from "react";
+import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const BISImage = "/services-images/BIS.jpg";
@@ -80,8 +80,7 @@ const services = [
   },
 ];
 
-// Memoized Service Card Component for Desktop
-const ServiceCard = memo(({ service, onNavigate }) => {
+const ServiceCard = ({ service, onNavigate }) => {
   return (
     <div className="min-w-full h-full flex items-center  p-12">
       <div className="grid grid-cols-2 gap-12 items-center h-full">
@@ -154,14 +153,10 @@ const ServiceCard = memo(({ service, onNavigate }) => {
       </div>
     </div>
   );
-});
+};
 
-ServiceCard.displayName = "ServiceCard";
-
-// Memoized Service Thumbnail Component
-const ServiceThumbnail = memo(
-  ({ service, index, isActive, onThumbnailClick }) => {
-    return (
+const ServiceThumbnail = ({ service, index, isActive, onThumbnailClick }) => {
+  return (
       <div
         onClick={() => onThumbnailClick(index)}
         role="button"
@@ -204,56 +199,38 @@ const ServiceThumbnail = memo(
         </div>
       </div>
     );
-  }
-);
-
-ServiceThumbnail.displayName = "ServiceThumbnail";
+};
 
 const OurServices = () => {
   const router = useRouter();
   const [activeIndex, setActiveIndex] = useState(0);
   const [activeThumbnail, setActiveThumbnail] = useState(0);
 
-  // Memoize transform style calculation
-  const slideTransform = useMemo(
-    () => ({
-      transform: `translateX(-${activeIndex * 100}%)`,
-    }),
-    [activeIndex]
-  );
-
-  // useCallback for event handlers to prevent unnecessary re-renders
-  const prevSlide = useCallback(() => {
+  const prevSlide = () => {
     setActiveIndex(
       (prevIndex) => (prevIndex - 1 + services.length) % services.length
     );
-  }, []);
+  };
 
-  const nextSlide = useCallback(() => {
+  const nextSlide = () => {
     setActiveIndex((prevIndex) => (prevIndex + 1) % services.length);
-  }, []);
+  };
 
-  const goToSlide = useCallback((index) => {
+  const goToSlide = (index) => {
     setActiveIndex(index);
-  }, []);
+  };
 
-  const handleServiceNavigation = useCallback(
-    (path) => {
-      router.push(path);
-    },
-    [router]
-  );
+  const handleServiceNavigation = (path) => {
+    router.push(path);
+  };
 
-  const handleThumbnailClick = useCallback(
-    (index) => {
-      setActiveThumbnail(index);
-      const service = services[index];
-      if (service && service.path) {
-        handleServiceNavigation(service.path);
-      }
-    },
-    [handleServiceNavigation]
-  );
+  const handleThumbnailClick = (index) => {
+    setActiveThumbnail(index);
+    const service = services[index];
+    if (service?.path) {
+      handleServiceNavigation(service.path);
+    }
+  };
 
   return (
     <div className="bg-gradient-to-b from-[#F9F7F2] to-white pt-8 pb-8  sm:pt-12 md:pt-16 ">
@@ -292,7 +269,7 @@ const OurServices = () => {
           <div className="relative overflow-hidden rounded-3xl shadow-2xl h-[500px] bg-gradient-to-br from-[#1A8781]/5 to-[#1A8781]/20 border border-[#1A8781]/30 will-change-transform">
             <div
               className="flex transition-transform duration-500 h-full"
-              style={slideTransform}
+              style={{ transform: `translateX(-${activeIndex * 100}%)` }}
             >
               {services.map((service) => (
                 <ServiceCard
