@@ -76,9 +76,9 @@ const OurServices = () => {
   return (
     <div className="pt-6 md:pt-8 pb-10 overflow-x-hidden">
       <div className="max-w-6xl w-full mx-auto">
-        <h2 className="text-[32px] md:text-[48px] text-center font-geist font-semibold text-[#181818]">
+        <div className="text-[32px] md:text-[48px] text-center font-geist font-semibold text-[#181818]">
           Our Services
-        </h2>
+        </div>
         <p className="text-[#52525b] text-center text-[16px] md:text-[20px] font-geist">
           India&apos;s Best Certificate Consultant
         </p>
