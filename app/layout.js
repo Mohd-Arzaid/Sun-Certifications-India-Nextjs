@@ -8,6 +8,7 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
 import TopBar from "@/components/layout/TopBar";
 
 const roboto = Roboto({
@@ -57,6 +58,7 @@ export default function RootLayout({ children }) {
     >
       <body>
         <TopBar />
+        <Navbar />
         {children}
         <Footer />
       </body>
