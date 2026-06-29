@@ -8,6 +8,7 @@ import LatestNews from "@/components/manual/home-page-sections/LatestNews";
 import Countries from "@/components/manual/home-page-sections/Countries";
 import CertificationAndAchievements from "@/components/manual/home-page-sections/CertificationAndAchievements";
 import WhatsOurCustomersSaySection from "@/components/manual/home-page-sections/WhatsOurCustomersSaySection";
+import VideoSection from "@/components/manual/home-page-sections/VideoSection";
 
 const Home = () => {
   return (
@@ -22,6 +23,8 @@ const Home = () => {
       <Countries />
       <CertificationAndAchievements />
       <WhatsOurCustomersSaySection />
+      <LogoTicker />
+      <VideoSection />
     </>
   );
 };

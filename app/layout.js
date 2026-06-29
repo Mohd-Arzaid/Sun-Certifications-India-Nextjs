@@ -7,6 +7,7 @@ import {
   Roboto,
 } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/layout/Footer";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -53,7 +54,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${roboto.variable} ${inter.variable} ${playfair.variable} ${poppins.variable} ${geistSans.variable} ${geistMono.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
