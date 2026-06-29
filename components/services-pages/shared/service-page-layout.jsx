@@ -1,6 +1,7 @@
 import CommonBreadcrumb from "@/components/common/common-breadcrumb";
+import ServiceHero from "./service-hero";
 
-const ServicePageLayout = ({ breadcrumbLabel }) => {
+const ServicePageLayout = ({ breadcrumbLabel, hero }) => {
   return (
     <div>
       <CommonBreadcrumb label={breadcrumbLabel} />
