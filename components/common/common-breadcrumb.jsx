@@ -14,12 +14,11 @@ export const CommonBreadcrumb = ({ label, items }) => {
   const crumbs = items ?? [{ label }];
 
   return (
-    <div className="relative">
-      <div className="absolute left-0 top-3 z-30 w-full md:top-5">
-        <div className="mx-auto max-w-[75rem] px-4">
-          <div className="scrollbar-hide w-full overflow-x-auto font-inter">
-            <div className="min-w-full w-fit">
-              <Breadcrumb>
+    <div className="absolute md:top-5 top-3 left-0 w-full z-30">
+      <div className="max-w-[80rem] mx-auto px-4">
+        <div className="w-full overflow-x-auto scrollbar-hide font-inter">
+          <div className="w-fit min-w-full">
+            <Breadcrumb>
                 <BreadcrumbList className="flex-nowrap">
                   <BreadcrumbItem className="flex-shrink-0">
                     <BreadcrumbLink asChild>
@@ -48,7 +47,6 @@ export const CommonBreadcrumb = ({ label, items }) => {
                   ))}
                 </BreadcrumbList>
               </Breadcrumb>
-            </div>
           </div>
         </div>
       </div>
