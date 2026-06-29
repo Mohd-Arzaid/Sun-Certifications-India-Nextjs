@@ -11,6 +11,10 @@ import ServicePageLayout from "../shared/service-page-layout";
 const BISFMOverviewImage =
   "/services-main-images/BISCertificationforForeignManufacaturers.webp";
 
+const ISIMarkImage = "/services-images/ISIMARKUpdated.jpg";
+
+const BISCertificateImage = "/bisfm-page-images/biscertificate.png";
+
 const hero = {
   heading: "BIS Certification for Foreign Manufacturers",
   description:
@@ -139,10 +143,414 @@ const OverviewSection = () => (
     />
   </div>
 );
-const StandardizationSection = () => <></>;
-const RepresentationSection = () => <></>;
-const DocumentSection = () => <></>;
-const ProcessSection = () => <></>;
+
+const StandardizationSection = () => (
+  <div className="flex flex-col gap-5">
+    <SectionHeadingTwo>
+      BIS Mark: Compliance Requirements, Usage Rules, and Legal Guidelines
+    </SectionHeadingTwo>
+
+    <ServiceParagraph>
+      The BIS FMCS logo is issued by the Bureau of Indian Standards (BIS). It
+      signifies that products manufactured outside India comply with relevant
+      Indian Standards (IS) and are authorized for import and sale. The mark
+      includes a unique license number (e.g., CM/L-XXXXXXXXXX) and the IS
+      number. The logo must be accompanied by a unique 7 to 10-digit number
+      (CM/L-XXXXXXX) that identifies the specific foreign manufacturing unit.
+    </ServiceParagraph>
+
+    <ServiceParagraph>
+      For a product to bear the Indian BIS or ISI mark, it must pass through a
+      rigorous BIS certification process, including lab testing, factory
+      inspection, documentation audits, and compliance checks with Indian BIS
+      guidelines.
+    </ServiceParagraph>
+
+    <SectionHeadingThree>According to the BIS Act, 2016 :</SectionHeadingThree>
+
+    <ServiceList
+      points={[
+        "Use of the ISI mark without a valid BIS license is punishable by law.",
+        "Certified products must display both the ISI logo and CM/L number (Certificate of Manufacturing License).",
+        "Violators may face product bans, fines, or even criminal prosecution.",
+      ]}
+    />
+
+    <ServiceImage
+      src={ISIMarkImage}
+      alt="ISI Mark logo"
+      title="ISI Mark logo"
+      className="w-full max-w-[300px] h-auto rounded-lg shadow-sm my-6 mx-auto border border-neutral-200 hover:shadow-md transition-shadow duration-300"
+    />
+
+    <SectionHeadingThree as="p">
+      The ISI logo typically consists of:
+    </SectionHeadingThree>
+
+    <ServiceList
+      points={[
+        'The stylized letters "ISI" inside a rectangle with rounded corners',
+        "The CM/L number displayed beneath or adjacent to the mark",
+        "The reference Indian standard code number (e.g., IS 302 for electrical appliances)",
+      ]}
+    />
+
+    <SectionHeadingThree as="p">Placement must be:</SectionHeadingThree>
+
+    <ServiceList
+      points={[
+        "Permanent and clearly visible on the product",
+        "On the packaging if not possible on the product",
+        "On user manuals in some product categories",
+      ]}
+    />
+
+    <SectionHeadingThree as="h2">
+      Indian BIS vs. Other Global Certifications
+    </SectionHeadingThree>
+
+    <ServiceParagraph>
+      Let's compare the ISI mark with other international symbols:
+    </ServiceParagraph>
+
+    <ServiceTable
+      className="my-2"
+      emphasizeAllColumns
+      headers={["MARK", "COUNTRY", "MANDATORY?", "FOCUS"]}
+      rows={[
+        ["ISI", "India", "Yes", "Product safety and quality"],
+        [
+          "CE",
+          "EU",
+          "Yes (for specific categories)",
+          "Health, safety, environment",
+        ],
+        ["UL", "USA", "No", "Safety standards (voluntary)"],
+        ["CCC", "China", "Yes", "Electrical goods safety"],
+      ]}
+    />
+
+    <ServiceParagraph>
+      Unlike UL (voluntary) or CE (region-specific), the ISI mark under the BIS
+      registration scheme is both compulsory and locally enforced.
+    </ServiceParagraph>
+  </div>
+);
+
+const RepresentationSection = () => (
+  <div className="flex flex-col gap-5">
+    <SectionHeadingTwo>
+      Role of Authorized Indian Representative (AIR) in BIS Certification
+    </SectionHeadingTwo>
+
+    <SectionHeadingThree>
+      What is an Authorized Indian Representative (AIR)?
+    </SectionHeadingThree>
+
+    <ServiceParagraph>
+      An Authorized Indian Representative (AIR) is a crucial intermediary
+      appointed by a foreign manufacturer seeking BIS certification under the
+      FMCS registration scheme. The AIR serves as the official liaison between
+      the Bureau of Indian Standards (BIS) and the manufacturer, ensuring smooth
+      communication, documentation handling, and coordination of the
+      certification process.
+    </ServiceParagraph>
+
+    <SectionHeadingThree>
+      Legal Requirement for AIR Appointment
+    </SectionHeadingThree>
+
+    <ServiceParagraph>
+      As per BIS guidelines, any foreign manufacturer who does not have a
+      registered office in India must appoint an AIR. This requirement ensures
+      that BIS has a reliable, accessible point of contact within Indian
+      jurisdiction.
+    </ServiceParagraph>
+
+    <SectionHeadingThree>Key Responsibilities of the AIR</SectionHeadingThree>
+
+    <ServiceParagraph>
+      The AIR&apos;s role spans the entire BIS certification process, from
+      documentation and application submission to audit coordination and
+      post-certification compliance:
+    </ServiceParagraph>
+
+    <ServiceTable
+      className="mt-2"
+      headers={["RESPONSIBILITY", "DESCRIPTION"]}
+      rows={[
+        [
+          "Communication",
+          "Acts as the point of contact with BIS officers and departments",
+        ],
+        [
+          "Application Support",
+          "Assists in filling forms, compiling documents, and submitting the application",
+        ],
+        [
+          "Audit Coordination",
+          "Coordinates factory inspection schedules and addresses auditor queries",
+        ],
+        [
+          "Compliance Monitoring",
+          "Ensures all testing and certification activities meet BIS norms",
+        ],
+        [
+          "Renewal Management",
+          "Oversees BIS licence renewal, documentation updates, and fee payments",
+        ],
+      ]}
+    />
+
+    <SectionHeadingThree>
+      Eligibility Criteria to Become an AIR
+    </SectionHeadingThree>
+
+    <ServiceParagraph>
+      To serve as an AIR, an individual or organization must :
+    </ServiceParagraph>
+
+    <ServiceList
+      points={[
+        "Be an Indian citizen or a legally registered business entity in India",
+        "Have a physical address in India with a valid postal code",
+        "Be capable of communicating fluently in English and local languages",
+        "Understand the certification scheme, BIS documentation protocols, and regulatory expectations",
+        "Be able to respond to audits and correspondence promptly on behalf of the foreign manufacturer",
+      ]}
+    />
+
+    <SectionHeadingThree>Why the AIR Role is Vital</SectionHeadingThree>
+
+    <ServiceParagraph>
+      The AIR ensures continuity and accountability throughout the BIS
+      certification process. Without an AIR:
+    </ServiceParagraph>
+
+    <ServiceList
+      points={[
+        "BIS has no jurisdiction to act against a non-complying foreign manufacturer",
+        "Time-sensitive queries and audit schedules may get delayed",
+        "The certification process can get stuck, revoked, or rejected",
+      ]}
+    />
+
+    <ServiceParagraph>
+      A proactive and experienced AIR significantly increases the chance of
+      successful BIS certification.
+    </ServiceParagraph>
+  </div>
+);
+const DocumentSection = () => (
+  <div className="flex flex-col gap-5">
+    <SectionHeadingTwo>
+      Documentation Required for BIS Certification under FMCS
+    </SectionHeadingTwo>
+
+    <ServiceTable
+      className="mt-2"
+      headers={["DOCUMENT TYPE", "PURPOSE"]}
+      rows={[
+        ["FMCS Application Form", "Official request for certification"],
+        ["Manufacturing Equipment List", "Shows production capabilities"],
+        ["Raw Materials List", "Ensures input material quality"],
+        [
+          "Testing Equipment List",
+          "Evaluates testing and compliance readiness",
+        ],
+        ["Calibration Certificates", "Proves test equipment accuracy"],
+        [
+          "Factory Layout & Process Flow",
+          "Helps auditors understand manufacturing stages",
+        ],
+        [
+          "Test Certificates",
+          "Proves quality of raw materials and final product",
+        ],
+        ["Quality Control Profile", "Verifies staff qualifications and SOPs"],
+        ["Payment Proof", "Validates fee submission to BIS"],
+        ["Performance Bank Guarantee", "Acts as financial assurance for BIS"],
+      ]}
+    />
+
+    <SectionHeadingTwo as="h3">
+      Detailed Breakdown of Each document required to Indian BIS certification
+    </SectionHeadingTwo>
+
+    <SectionHeadingThree as="div">1. FMCS Application Form</SectionHeadingThree>
+
+    <ServiceParagraph>
+      This document provides general details about the foreign manufacturer,
+      including:
+    </ServiceParagraph>
+
+    <ServiceList
+      points={[
+        "Product details (type, category, model)",
+        "Intended Indian Standard",
+        "Contact details of factory and AIR",
+        "Manufacturing capacity and testing scope",
+      ]}
+    />
+
+    <SectionHeadingThree as="div">
+      2. List of Manufacturing Equipment
+    </SectionHeadingThree>
+
+    <ServiceList
+      points={[
+        "Machine name and make",
+        "Production capacity",
+        "Contact details of factory and AIR",
+        "Maintenance records (if applicable)",
+      ]}
+    />
+
+    <SectionHeadingThree as="div">3. List of Raw Materials</SectionHeadingThree>
+
+    <ServiceList
+      points={[
+        "Source of procurement",
+        "Grades and specifications",
+        "Testing protocol (if any)",
+      ]}
+    />
+
+    <SectionHeadingThree as="div">
+      4. List of Testing Equipment
+    </SectionHeadingThree>
+
+    <ServiceList
+      points={[
+        "Equipment name and manufacturer",
+        "Compliance with test parameters in Indian Standard",
+        "Location within the factory",
+      ]}
+    />
+
+    <SectionHeadingThree as="div">
+      5. Calibration Certificates
+    </SectionHeadingThree>
+
+    <ServiceList
+      points={[
+        "Date of last calibration",
+        "Validity period",
+        "Certificate number",
+      ]}
+    />
+
+    <SectionHeadingThree as="div">
+      6. Factory Layout & Process Flow Diagram
+    </SectionHeadingThree>
+
+    <ServiceList
+      points={[
+        "Entry and exit points",
+        "Testing lab areas",
+        "QC checkpoints",
+        "Storage and packaging sections",
+      ]}
+    />
+
+    <SectionHeadingThree as="div">
+      7. Performance Bank Guarantee
+    </SectionHeadingThree>
+
+    <ServiceParagraph>
+      Issued by an RBI-approved Indian bank, the Performance Bank Guarantee
+      (PBG) covers liability in case of non-compliance. This document must:
+    </ServiceParagraph>
+
+    <ServiceList
+      points={[
+        "Be on official bank letterhead",
+        "Indicate guarantee period and amount",
+        "Be signed and sealed",
+      ]}
+    />
+
+    <SectionHeadingThree as="div">
+      Common documentation mistakes to avoid while applying for BIS certificate
+      or Indian BIS.
+    </SectionHeadingThree>
+
+    <ServiceList
+      points={[
+        "Mismatch between form data and factory reality",
+        "Submitting expired calibration reports",
+        "Missing BIS fee proof",
+        "Incomplete or vague process flows",
+        "Naming inconsistencies between documents",
+      ]}
+    />
+  </div>
+);
+const ProcessSection = () => (
+  <div className="flex flex-col gap-5">
+    <SectionHeadingTwo>
+      Step-by-Step BIS Certification Process Under FMCS
+    </SectionHeadingTwo>
+
+    <SectionHeadingThree>
+      Overview of the BIS Certification Journey
+    </SectionHeadingThree>
+
+    <ServiceParagraph>
+      The BIS certification process under the Foreign Manufacturers
+      Certification Scheme (FMCS) is methodical, structured, and multi-phased.
+      It ensures that products comply with applicable Indian standards,
+      manufacturing processes are robust, and testing is accurate.
+    </ServiceParagraph>
+
+    <SectionHeadingThree>
+      Step-by-Step BIS license Process Summary Table
+    </SectionHeadingThree>
+
+    <ServiceTable
+      className="mt-2"
+      headers={["STEP", "DESCRIPTION"]}
+      rows={[
+        ["1", "Application Submission to BIS FMCD"],
+        ["2", "Documentation Scrutiny and Initial Review"],
+        ["3", "Query Resolution & Clarification Submission"],
+        ["4", "Nomination of BIS Technical Auditor"],
+        ["5", "Factory Audit Scheduling & Coordination via AIR"],
+        ["6", "Factory Inspection & Sample Sealing by BIS Auditor"],
+        ["7", "In-House Product Testing (if applicable)"],
+        ["8", "Testing of Sealed Samples in BIS-Approved Labs in India"],
+        ["9", "Review of Test Reports & Audit Findings"],
+        ["10", "Issuance of BIS License and Use of ISI Mark"],
+      ]}
+    />
+
+    <SectionHeadingThree>
+      Sample copy of BIS FMCS certificate.
+    </SectionHeadingThree>
+
+    <ServiceImage
+      src={BISCertificateImage}
+      alt="Sample BIS FMCS certificate"
+      title="Sample BIS FMCS certificate"
+      className="w-full h-auto rounded-lg shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300 my-8 mx-auto"
+    />
+
+    <SectionHeadingThree>
+      Timeframe to Obtain BIS Certificate
+    </SectionHeadingThree>
+
+    <SectionHeadingThree as="div">
+      Typical Duration from Application to Certificate
+    </SectionHeadingThree>
+
+    <ServiceParagraph>
+      The BIS certification process under FMCS generally takes about 120 working
+      days (approximately 3–4 months) from the date of correct application
+      submission. Delays often occur when documents are unclear or if the
+      factory isn&apos;t audit ready.
+    </ServiceParagraph>
+  </div>
+);
 const CostingSection = () => <></>;
 const SurveillanceSection = () => <></>;
 const FacilitatorSection = () => <></>;
