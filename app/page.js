@@ -1,9 +1,11 @@
-export default function Home() {
+import Hero from "@/components/manual/home-page-sections/Hero";
+
+const Home = () => {
   return (
-    <div className="flex h-screen flex-col items-center justify-center">
-      <h1 className="text-5xl font-bold text-blue-600">
-        Tailwind CSS v3 is Working
-      </h1>
-    </div>
+    <>
+      <Hero />
+    </>
   );
-}
+};
+
+export default Home;
