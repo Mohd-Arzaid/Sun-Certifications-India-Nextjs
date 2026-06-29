@@ -7,6 +7,7 @@ import WebinarSeminarMarquee from "@/components/manual/home-page-sections/Webina
 import LatestNews from "@/components/manual/home-page-sections/LatestNews";
 import Countries from "@/components/manual/home-page-sections/Countries";
 import CertificationAndAchievements from "@/components/manual/home-page-sections/CertificationAndAchievements";
+import WhatsOurCustomersSaySection from "@/components/manual/home-page-sections/WhatsOurCustomersSaySection";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <LatestNews />
       <Countries />
       <CertificationAndAchievements />
+      <WhatsOurCustomersSaySection />
     </>
   );
 };
