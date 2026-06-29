@@ -6,6 +6,7 @@ import ServiceSection from "./service-section";
 import { Fragment } from "react";
 import ServiceRightSideContent from "./service-right-side-content";
 import ServiceFaq from "./service-faq";
+import FaqStructuredData from "./faq-structured-data";
 import Author from "../../common/author";
 import ServiceLanguageSelector from "./service-language-selector";
 import OurServices from "@/components/common/our-services";
@@ -23,6 +24,7 @@ const ServicePageLayout = ({
     faqs?.length > 0 ? [...sections, { id: "faqs", label: "FAQs" }] : sections;
   return (
     <div>
+      {faqs?.length > 0 && <FaqStructuredData faqs={faqs} />}
       <CommonBreadcrumb label={breadcrumbLabel} />
       <ServiceHero
         heading={hero.heading}
