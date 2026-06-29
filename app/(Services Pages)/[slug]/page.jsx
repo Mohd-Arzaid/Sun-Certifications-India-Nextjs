@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation";
 import BISFM from "@/components/services-pages/BISFM/BISFM";
 import BISCertification from "@/components/services-pages/BISCertification/BISCertification";
+import ISIMark from "@/components/services-pages/ISIMark/ISIMark";
 
 const SERVICE_PAGES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": BISFM,
   "what-is-bis-certificate-indian-bis":BISCertification,
+  "a-guide-to-bis-certification-indian-bis":ISIMark,
 };
 
 export const generateStaticParams = () => {
