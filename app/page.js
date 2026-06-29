@@ -4,6 +4,8 @@ import OurServices from "@/components/manual/home-page-sections/OurServices";
 import AuditsMarquee from "@/components/manual/home-page-sections/AuditsMarquee";
 import Contact from "@/components/manual/home-page-sections/Contact";
 import WebinarSeminarMarquee from "@/components/manual/home-page-sections/WebinarSeminarMarquee";
+import LatestNews from "@/components/manual/home-page-sections/LatestNews";
+import Countries from "@/components/manual/home-page-sections/Countries";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <AuditsMarquee />
       <Contact />
       <WebinarSeminarMarquee />
+      <LatestNews />
+      <Countries />
     </>
   );
 };

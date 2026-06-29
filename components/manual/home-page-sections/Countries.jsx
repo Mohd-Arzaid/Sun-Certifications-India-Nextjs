@@ -1,0 +1,139 @@
+"use client";
+
+import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import { useState } from "react";
+
+const Countries = () => {
+  const handlePreviousClick = () => {
+    setCountriesData((prev) => {
+      const newArray = [...prev];
+      const lastItem = newArray.pop();
+      newArray.unshift(lastItem);
+      return newArray;
+    });
+  };
+
+  const handleNextClick = () => {
+    setCountriesData((prev) => {
+      const newArray = [...prev];
+      const firstItem = newArray.shift();
+      newArray.push(firstItem);
+      return newArray;
+    });
+  };
+
+  const [countriesData, setCountriesData] = useState([
+    { name: "Thailand", img: "/countries-images/Thailand.webp" },
+    { name: "Vietnam", img: "/countries-images/Vietnam.webp" },
+    { name: "Canada", img: "/countries-images/Canada.webp" },
+    { name: "China", img: "/countries-images/China.webp" },
+    { name: "Italy", img: "/countries-images/Italy.webp" },
+    { name: "Colombia", img: "/countries-images/Colombia.webp" },
+    { name: "Qatar", img: "/countries-images/Qatar.webp" },
+    { name: "India", img: "/countries-images/India.webp" },
+    { name: "Indonesia", img: "/countries-images/Indonesia.webp" },
+  ]);
+
+  return (
+    <div className="relative bg-white py-12 md:py-0">
+      <div className=" max-w-[88rem] mx-auto w-full px-4 md:px-8">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-[18px] ">
+          {/* Left Side */}
+          <div className="w-full md:max-w-[383px] flex flex-col gap-[30px] items-center text-center md:items-start md:text-left ">
+            <div className="flex flex-col gap-2 md:gap-[20px]">
+              <h1 className="font-roboto leading-tight font-bold text-[30px] md:text-[43px]">
+                Countries We Serve Worldwide
+              </h1>
+
+              <p className="font-poppins font-medium text-base md:text-[19px] text-[#008080]">
+                Expanding our services across multiple nations, delivering
+                excellence everywhere.
+              </p>
+            </div>
+
+            <div className="flex gap-4 items-center ">
+              <button
+                onClick={handlePreviousClick}
+                aria-label="Previous countries"
+                className="rounded-full w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center border-2 border-[#160E34]"
+              >
+                <ChevronLeft className="hidden md:block" />
+                <ChevronLeft className="block md:hidden size={20}" />
+              </button>
+
+              <button
+                onClick={handleNextClick}
+                aria-label="Next countries"
+                className="rounded-full w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center bg-[#160E34] border-2 border-[#160E34]"
+              >
+                <ChevronRight className="hidden md:block text-white" />
+                <ChevronRight className="block md:hidden size-4 text-white" />
+              </button>
+            </div>
+          </div>
+
+          <div className="w-full px-0 md:px-[22px] py-3 md:py-20 overflow-hidden scrollbar-hide  [mask-image:linear-gradient(to_right,black_90%,transparent)]">
+            <div className=" flex gap-4 md:gap-[22px] w-max ">
+              {/* Mobile */}
+              {countriesData.map((country, index) => (
+                <div
+                  key={index}
+                  className=" md:hidden w-[280px] h-[280px] bg-[#B5DDEB] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]  rounded-[12px] p-4 flex flex-col items-center justify-center flex-shrink-0"
+                >
+                  <div className="w-full h-full flex items-center justify-center overflow-hidden">
+                    <img
+                      src={country.img}
+                      alt={country.name}
+                      title={country.name}
+                      className="w-auto h-full object-contain"
+                    />
+                  </div>
+
+                  <div className="mt-3 px-1 flex items-center justify-between w-full">
+                    <span className="flex text-base items-center font-bold justify-center gap-1">
+                      <Star className="fill-current text-[#160E34]" size={16} />
+                      <h1 className="tracking-wider  text-[#160E34] uppercase">
+                        {country.name}
+                      </h1>
+                    </span>
+                  </div>
+                </div>
+              ))}
+
+              {/* Desktop */}
+              {countriesData.map((country, index) => (
+                <div
+                  key={index}
+                  className="hidden w-[380px] h-[380px] bg-[#B5DDEB] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] rounded-[12px] p-6 md:flex flex-col items-center justify-center"
+                >
+                  <div className="w-full h-full flex items-center justify-center">
+                    <img
+                      src={country.img}
+                      alt={country.name}
+                      title={country.name}
+                      className={
+                        country.name === "Thailand"
+                          ? "w-full h-full object-cover"
+                          : ""
+                      }
+                    />
+                  </div>
+                  <div className="mt-4 px-2 flex items-center justify-between w-full">
+                    <span className="flex text-xl items-center font-bold justify-center gap-2">
+                      <Star className="fill-current text-[#160E34]" size={20} />
+                      <h1 className="tracking-widest text-[#160E34] uppercase">
+                        {country.name}
+                      </h1>
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Countries;
