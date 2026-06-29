@@ -201,7 +201,7 @@ const ServiceThumbnail = ({ service, index, isActive, onThumbnailClick }) => {
     );
 };
 
-const OurServices = () => {
+const HomeOurServices = () => {
   const router = useRouter();
   const [activeIndex, setActiveIndex] = useState(0);
   const [activeThumbnail, setActiveThumbnail] = useState(0);
@@ -315,4 +315,4 @@ const OurServices = () => {
   );
 };
 
-export default OurServices;
+export default HomeOurServices;
