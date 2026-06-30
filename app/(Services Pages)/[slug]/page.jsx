@@ -21,6 +21,8 @@ import EMIEMC from "@/components/services-pages/EMIEMC/EMIEMC";
 import { EMIEMC_SEO_META_TAGS } from "@/components/services-pages/EMIEMC/EMIEMC-seo-meta-tags";
 import CDSCO from "@/components/services-pages/CDSCO/CDSCO";
 import { CDSCO_SEO_META_TAGS } from "@/components/services-pages/CDSCO/CDSCO-seo-meta-tags";
+import BatteryWaste from "@/components/services-pages/BatteryWaste/BatteryWaste";
+import { BATTERY_WASTE_SEO_META_TAGS } from "@/components/services-pages/BatteryWaste/BatteryWaste-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -70,6 +72,10 @@ const SERVICES = {
     component: CDSCO,
     metadata: CDSCO_SEO_META_TAGS,
   },  
+  "epr-certificate-for-battery-waste-management-bwm": {
+    component: BatteryWaste,
+    metadata: BATTERY_WASTE_SEO_META_TAGS,
+  },
 };
 
 export const generateMetadata = async ({ params }) => {
