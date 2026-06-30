@@ -36,7 +36,11 @@ const ServiceFaq = ({ faqs }) => (
                 </div>
               </AccordionTrigger>
               <AccordionContent className="font-geist text-[14px] md:text-[18px] text-[#5e5f6e]">
-                {faq.answer}
+                {faq.answerHtml ? (
+                  <div dangerouslySetInnerHTML={{ __html: faq.answerHtml }} />
+                ) : (
+                  faq.answer
+                )}
               </AccordionContent>
             </AccordionItem>
           ))}

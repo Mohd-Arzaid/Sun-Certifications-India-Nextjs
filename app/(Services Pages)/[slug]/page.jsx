@@ -3,7 +3,10 @@ import BISFM from "@/components/services-pages/BISFM/BISFM";
 import BISCertification from "@/components/services-pages/BISCertification/BISCertification";
 import ISIMark from "@/components/services-pages/ISIMark/ISIMark";
 import { BISFM_SEO_META_TAGS } from "@/components/services-pages/BISFM/bisfm-seo-meta-tags";
+import { AIR_SEO_META_TAGS } from "@/components/services-pages/AIR/AIR-seo-meta-tags";
 import AuthorizedIndianRepresentativeAIR from "@/components/services-pages/AIR/AuthorizedIndianRepresentativeAIR";
+import CRSRegistration from "@/components/services-pages/CRSRegistration/CRSRegistration";
+import { CRS_SEO_META_TAGS } from "@/components/services-pages/CRSRegistration/CRS-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -18,6 +21,12 @@ const SERVICES = {
   },
   "authorized-indian-representative": {
     component: AuthorizedIndianRepresentativeAIR,
+    metadata: AIR_SEO_META_TAGS,
+  },
+
+  "what-is-crs-bis-or-crs-registration": {
+    component: CRSRegistration,
+    metadata: CRS_SEO_META_TAGS,
   },
 };
 
