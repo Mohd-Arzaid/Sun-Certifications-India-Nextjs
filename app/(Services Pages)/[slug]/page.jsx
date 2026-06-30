@@ -41,6 +41,8 @@ import NABL from "@/components/services-pages/NABL/NABL";
 import { NABL_SEO_META_TAGS } from "@/components/services-pages/NABL/NABL-seo-meta-tags";
 import APEDARegistration from "@/components/services-pages/APEDARegistration/APEDARegistration";
 import { APEDA_REGISTRATION_SEO_META_TAGS } from "@/components/services-pages/APEDARegistration/APEDARegistration-seo-meta-tags";
+import IntroductiontoERDAandERDACertificate from "@/components/services-pages/IntroductiontoERDAandERDACertificate/IntroductiontoERDAandERDACertificate";
+import { ERDA_CERTIFICATE_SEO_META_TAGS } from "@/components/services-pages/IntroductiontoERDAandERDACertificate/IntroductiontoERDAandERDACertificate-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -129,6 +131,10 @@ const SERVICES = {
   "apeda-registration-india": {
     component: APEDARegistration,
     metadata: APEDA_REGISTRATION_SEO_META_TAGS,
+  },
+  "erda-certificate-india": {
+    component: IntroductiontoERDAandERDACertificate,
+    metadata: ERDA_CERTIFICATE_SEO_META_TAGS,
   },
 };
 
