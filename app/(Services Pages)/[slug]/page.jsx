@@ -13,6 +13,10 @@ import SchemeX from "@/components/services-pages/SchemeX/SchemeX";
 import { SCHEME_X_SEO_META_TAGS } from "@/components/services-pages/SchemeX/SchemeX-seo-meta-tags";
 import EPRService from "@/components/services-pages/EPRService/EPRService";
 import { EPR_SERVICE_SEO_META_TAGS } from "@/components/services-pages/EPRService/EPRService-seo-meta-tags";
+import ROHS from "@/components/services-pages/ROHS/ROHS";
+import { ROHS_SEO_META_TAGS } from "@/components/services-pages/ROHS/ROHS-seo-meta-tags";
+import PlasticWaste from "@/components/services-pages/PlasticWaste/PlasticWaste";
+import { PLASTIC_WASTE_SEO_META_TAGS } from "@/components/services-pages/PlasticWaste/PlasticWaste-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -45,6 +49,14 @@ const SERVICES = {
   "a-guide-on-how-to-obtain-epr-certificate": {
     component: EPRService,
     metadata: EPR_SERVICE_SEO_META_TAGS,
+  },
+  "restriction-of-hazardous-substance-rohs-certificate": {
+    component: ROHS,
+    metadata: ROHS_SEO_META_TAGS,
+  },
+  "epr-certificate-for-plastic-waste-management-pwm": {
+    component: PlasticWaste,
+    metadata: PLASTIC_WASTE_SEO_META_TAGS,
   },
 };
 
