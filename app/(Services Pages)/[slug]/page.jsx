@@ -11,6 +11,8 @@ import CECertification from "@/components/services-pages/CECertification/CECerti
 import { CE_CERTIFICATION_SEO_META_TAGS } from "@/components/services-pages/CECertification/CECertification-seo-meta-tags";
 import SchemeX from "@/components/services-pages/SchemeX/SchemeX";
 import { SCHEME_X_SEO_META_TAGS } from "@/components/services-pages/SchemeX/SchemeX-seo-meta-tags";
+import EPRService from "@/components/services-pages/EPRService/EPRService";
+import { EPR_SERVICE_SEO_META_TAGS } from "@/components/services-pages/EPRService/EPRService-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -39,6 +41,10 @@ const SERVICES = {
   "indian-bis-certification-under-scheme-x": {
     component: SchemeX,
     metadata: SCHEME_X_SEO_META_TAGS,
+  },
+  "a-guide-on-how-to-obtain-epr-certificate": {
+    component: EPRService,
+    metadata: EPR_SERVICE_SEO_META_TAGS,
   },
 };
 
