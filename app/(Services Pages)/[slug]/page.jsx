@@ -23,6 +23,8 @@ import CDSCO from "@/components/services-pages/CDSCO/CDSCO";
 import { CDSCO_SEO_META_TAGS } from "@/components/services-pages/CDSCO/CDSCO-seo-meta-tags";
 import BatteryWaste from "@/components/services-pages/BatteryWaste/BatteryWaste";
 import { BATTERY_WASTE_SEO_META_TAGS } from "@/components/services-pages/BatteryWaste/BatteryWaste-seo-meta-tags";
+import Tec from "@/components/services-pages/Tec/Tec";
+import { TEC_SEO_META_TAGS } from "@/components/services-pages/Tec/Tec-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -75,6 +77,10 @@ const SERVICES = {
   "epr-certificate-for-battery-waste-management-bwm": {
     component: BatteryWaste,
     metadata: BATTERY_WASTE_SEO_META_TAGS,
+  },
+  "information-about-tec-certificate-mtcte": {
+    component: Tec,
+    metadata: TEC_SEO_META_TAGS,
   },
 };
 
