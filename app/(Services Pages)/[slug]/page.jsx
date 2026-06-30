@@ -25,6 +25,10 @@ import BatteryWaste from "@/components/services-pages/BatteryWaste/BatteryWaste"
 import { BATTERY_WASTE_SEO_META_TAGS } from "@/components/services-pages/BatteryWaste/BatteryWaste-seo-meta-tags";
 import Tec from "@/components/services-pages/Tec/Tec";
 import { TEC_SEO_META_TAGS } from "@/components/services-pages/Tec/Tec-seo-meta-tags";
+import LMPC from "@/components/services-pages/LMPC/LMPC";
+import { LMPC_SEO_META_TAGS } from "@/components/services-pages/LMPC/LMPC-seo-meta-tags";
+import Peso from "@/components/services-pages/Peso/Peso";
+import { PESO_SEO_META_TAGS } from "@/components/services-pages/Peso/Peso-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -81,6 +85,14 @@ const SERVICES = {
   "information-about-tec-certificate-mtcte": {
     component: Tec,
     metadata: TEC_SEO_META_TAGS,
+  },
+  "a-guide-on-how-to-obtain-lmpc-certificate": {
+    component: LMPC,
+    metadata: LMPC_SEO_META_TAGS,
+  },
+  "information-about-peso-certification-peso-license-india": {
+    component: Peso,
+    metadata: PESO_SEO_META_TAGS,
   },
 };
 
