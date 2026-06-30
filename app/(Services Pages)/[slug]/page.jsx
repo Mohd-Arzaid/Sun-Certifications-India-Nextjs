@@ -43,6 +43,8 @@ import APEDARegistration from "@/components/services-pages/APEDARegistration/APE
 import { APEDA_REGISTRATION_SEO_META_TAGS } from "@/components/services-pages/APEDARegistration/APEDARegistration-seo-meta-tags";
 import IntroductiontoERDAandERDACertificate from "@/components/services-pages/IntroductiontoERDAandERDACertificate/IntroductiontoERDAandERDACertificate";
 import { ERDA_CERTIFICATE_SEO_META_TAGS } from "@/components/services-pages/IntroductiontoERDAandERDACertificate/IntroductiontoERDAandERDACertificate-seo-meta-tags";
+import ICATCertificateinIndia from "@/components/services-pages/ICATCertificateinIndia/ICATCertificateinIndia";
+import { ICAT_CERTIFICATE_SEO_META_TAGS } from "@/components/services-pages/ICATCertificateinIndia/ICATCertificateinIndia-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -135,6 +137,10 @@ const SERVICES = {
   "erda-certificate-india": {
     component: IntroductiontoERDAandERDACertificate,
     metadata: ERDA_CERTIFICATE_SEO_META_TAGS,
+  },
+  "icat-certificate-india": {
+    component: ICATCertificateinIndia,
+    metadata: ICAT_CERTIFICATE_SEO_META_TAGS,
   },
 };
 
