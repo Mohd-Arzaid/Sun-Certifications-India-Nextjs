@@ -9,6 +9,8 @@ import CRSRegistration from "@/components/services-pages/CRSRegistration/CRSRegi
 import { CRS_SEO_META_TAGS } from "@/components/services-pages/CRSRegistration/CRS-seo-meta-tags";
 import CECertification from "@/components/services-pages/CECertification/CECertification";
 import { CE_CERTIFICATION_SEO_META_TAGS } from "@/components/services-pages/CECertification/CECertification-seo-meta-tags";
+import SchemeX from "@/components/services-pages/SchemeX/SchemeX";
+import { SCHEME_X_SEO_META_TAGS } from "@/components/services-pages/SchemeX/SchemeX-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -33,6 +35,10 @@ const SERVICES = {
   "ce-certification": {
     component: CECertification,
     metadata: CE_CERTIFICATION_SEO_META_TAGS,
+  },
+  "indian-bis-certification-under-scheme-x": {
+    component: SchemeX,
+    metadata: SCHEME_X_SEO_META_TAGS,
   },
 };
 
