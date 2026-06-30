@@ -17,6 +17,10 @@ import ROHS from "@/components/services-pages/ROHS/ROHS";
 import { ROHS_SEO_META_TAGS } from "@/components/services-pages/ROHS/ROHS-seo-meta-tags";
 import PlasticWaste from "@/components/services-pages/PlasticWaste/PlasticWaste";
 import { PLASTIC_WASTE_SEO_META_TAGS } from "@/components/services-pages/PlasticWaste/PlasticWaste-seo-meta-tags";
+import EMIEMC from "@/components/services-pages/EMIEMC/EMIEMC";
+import { EMIEMC_SEO_META_TAGS } from "@/components/services-pages/EMIEMC/EMIEMC-seo-meta-tags";
+import CDSCO from "@/components/services-pages/CDSCO/CDSCO";
+import { CDSCO_SEO_META_TAGS } from "@/components/services-pages/CDSCO/CDSCO-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -58,6 +62,14 @@ const SERVICES = {
     component: PlasticWaste,
     metadata: PLASTIC_WASTE_SEO_META_TAGS,
   },
+  "emi-emc-certification": {
+    component: EMIEMC,
+    metadata: EMIEMC_SEO_META_TAGS,
+  },
+  "cdsco-registration-certification": {
+    component: CDSCO,
+    metadata: CDSCO_SEO_META_TAGS,
+  },  
 };
 
 export const generateMetadata = async ({ params }) => {
