@@ -29,6 +29,18 @@ import LMPC from "@/components/services-pages/LMPC/LMPC";
 import { LMPC_SEO_META_TAGS } from "@/components/services-pages/LMPC/LMPC-seo-meta-tags";
 import Peso from "@/components/services-pages/Peso/Peso";
 import { PESO_SEO_META_TAGS } from "@/components/services-pages/Peso/Peso-seo-meta-tags";
+import BEE from "@/components/services-pages/BEE/BEE";
+import { BEE_SEO_META_TAGS } from "@/components/services-pages/BEE/BEE-seo-meta-tags";
+import LegalMetrology from "@/components/services-pages/LegalMetrology/LegalMetrology";
+import { LEGAL_METROLOGY_SEO_META_TAGS } from "@/components/services-pages/LegalMetrology/LegalMetrology-seo-meta-tags";
+import WPC from "@/components/services-pages/WPC/WPC";
+import { WPC_SEO_META_TAGS } from "@/components/services-pages/WPC/WPC-seo-meta-tags";
+import CBCertification from "@/components/services-pages/CBCertification/CBCertification";
+import { CBCERTIFICATION_SEO_META_TAGS } from "@/components/services-pages/CBCertification/CBCertification-seo-meta-tags";
+import NABL from "@/components/services-pages/NABL/NABL";
+import { NABL_SEO_META_TAGS } from "@/components/services-pages/NABL/NABL-seo-meta-tags";
+import APEDARegistration from "@/components/services-pages/APEDARegistration/APEDARegistration";
+import { APEDA_REGISTRATION_SEO_META_TAGS } from "@/components/services-pages/APEDARegistration/APEDARegistration-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -93,6 +105,30 @@ const SERVICES = {
   "information-about-peso-certification-peso-license-india": {
     component: Peso,
     metadata: PESO_SEO_META_TAGS,
+  },
+  "bee-certification": {
+    component: BEE,
+    metadata: BEE_SEO_META_TAGS,
+  },
+  "what-is-legal-metrology-or-lmpc-certificate": {
+    component: LegalMetrology,
+    metadata: LEGAL_METROLOGY_SEO_META_TAGS,
+  },
+  "information-about-wpc-certificate-eta-approval": {
+    component: WPC,
+    metadata: WPC_SEO_META_TAGS,
+  },
+  "cb-certification": {
+    component: CBCertification,
+    metadata: CBCERTIFICATION_SEO_META_TAGS,
+  },
+  "nabl-certification-india": {
+    component: NABL,
+    metadata: NABL_SEO_META_TAGS,
+  },
+  "apeda-registration-india": {
+    component: APEDARegistration,
+    metadata: APEDA_REGISTRATION_SEO_META_TAGS,
   },
 };
 
