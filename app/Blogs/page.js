@@ -1,9 +1,25 @@
-import React from 'react'
+import ListingPageLayout from "@/components/listing-pages/listing-page-layout";
+import { BLOGS_LIST } from "./blogs-data";
 
-const page = () => {
+const hero = {
+  heading: "Latest Blogs",
+  description:
+    "Stay updated with the latest blogs and articles from our experts",
+};
+
+const search_bar = {
+  placeholder: "Search for Latest Blogs",
+};
+
+const BlogsPage = () => {
   return (
-    <div>page</div>
-  )
-}
+    <ListingPageLayout
+      breadcrumbLabel="Latest Blogs"
+      hero={hero}
+      search_bar={search_bar}
+      items={BLOGS_LIST}
+    />
+  );
+};
 
-export default page
+export default BlogsPage;

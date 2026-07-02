@@ -45,7 +45,7 @@ const ListingPageLayout = ({
           <ListingPageGrid>
             {currentItems.length > 0
               ? currentItems.map((item) => (
-                  <ListingPageCard key={item.id} item={item} />
+                  <ListingPageCard key={item.href} item={item} />
                 ))
               : (
                   <ListingPageItemsNotFound />

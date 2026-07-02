@@ -29,7 +29,11 @@ const ListingPageCard = ({ item }) => {
           {description}
         </p>
 
-        <div className="flex items-center justify-between pt-4 border-t-2 border-gray-300 mt-auto">
+        <div
+          className={`flex items-center pt-4 border-t-2 border-gray-300 mt-auto ${
+            pdfUrl ? "justify-between" : "justify-end"
+          }`}
+        >
           {pdfUrl && (
             <a
               href={pdfUrl}
