@@ -2,7 +2,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 136,
     "color": "#1A8781",
-    "tagType": "New QCO",
     "date": "15 June 2025",
     "title": "BIS Notification for “Writing and Printing Paper” ",
     "description": "BIS certification is now mandatory for Writing and Printing Paper (IS 1848 Part 1:2018) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
@@ -12,7 +11,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 137,
     "color": "#DC143C",
-    "tagType": "New QCO",
     "date": "15 June 2025",
     "title": "BIS Notification for “Coated Papers and Board ( Art and Chrome )”",
     "description": "BIS license now mandatory for Coated Papers & Board (Art and Chrome) from 17th Oct 2025. ISI mark required to sell in India.",
@@ -22,7 +20,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 139,
     "color": "#DC143C",
-    "tagType": "New QCO",
     "date": "15 June 2025",
     "title": "BIS QCO Notification for “Refined Zinc”",
     "description": "BIS certification is now mandatory for Refined Zinc  (IS 209:2024) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
@@ -32,7 +29,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 140,
     "color": "#708090",
-    "tagType": "New QCO",
     "date": "15 June 2025",
     "title": "BIS QCO Notification for “Tin Ingot”",
     "description": "BIS certification is now mandatory for Tin Ingot  (IS 26:2024) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
@@ -42,7 +38,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 138,
     "color": "#708090",
-    "tagType": "New QCO",
     "date": "13 June 2025",
     "title": "BIS QCO Notification for “Steel and Steel Products”",
     "description": "All steel and steel products that are notified under the Quality Control Order (QCO) and are intended for import must comply with the relevant Indian Standards for their respective input materials.",
@@ -52,7 +47,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 141,
     "color": "#DC143C",
-    "tagType": "New QCO",
     "date": "13 June 2025",
     "title": "BIS QCO Notification for “Refined Nickel”",
     "description": "BIS certification is now mandatory for Refined Nickel (IS 2782:2023) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
@@ -62,7 +56,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 142,
     "color": "#708090",
-    "tagType": "New QCO",
     "date": "13 June 2025",
     "title": "BIS QCO Notification for “Primary Lead”",
     "description": "BIS certification is now mandatory for Primary Lead (IS 27:2023) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
@@ -72,7 +65,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 1,
     "color": "#1A8781",
-    "tagType": "New QCO",
     "date": "13 February 2025",
     "title": "BIS certification for Work chairs",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “ Work chairs.",
@@ -82,7 +74,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 2,
     "color": "#C86A31",
-    "tagType": "Update",
     "date": "13 February 2025",
     "title": "BIS certification for Chairs and stools",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “ General purpose chairs and stools.",
@@ -92,7 +83,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 3,
     "color": "#5B63E6",
-    "tagType": "New QCO",
     "date": "13 February 2025",
     "title": "BIS Notification for Tables and desks",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “ Tables and desks.",
@@ -102,7 +92,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 4,
     "color": "#1A8781",
-    "tagType": "New QCO",
     "date": "13 February 2025",
     "title": "BIS Notification for Storage units",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “ Storage units.",
@@ -112,7 +101,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 5,
     "color": "#C86A31",
-    "tagType": "Update",
     "date": "13 February 2025",
     "title": "BIS Notification for Bunk beds",
     "description": "QCO notification Bunk beds under IS 17636: 2022 is as below:",
@@ -122,7 +110,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 6,
     "color": "#5B63E6",
-    "tagType": "New QCO",
     "date": "13 February 2025",
     "title": "BIS Notification for Beds",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “ Beds",
@@ -132,7 +119,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 7,
     "color": "#1A8781",
-    "tagType": "Electric Cable",
     "date": "6 January 2025",
     "title": "BIS Notification for Solar DC Cable and Fire Survival Cable",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of electric cable for photovoltaic.",
@@ -142,7 +128,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 8,
     "color": "#C86A31",
-    "tagType": "Wrought Aluminium",
     "date": "25 December 2024",
     "title": "BIS Notification for Wrought Aluminium and Aluminium Alloys, Forging Stock and Forgings",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of wrought aluminium and aluminium alloys, forging stock and forgings.",
@@ -152,7 +137,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 9,
     "color": "#5B63E6",
-    "tagType": "H Acid",
     "date": "14 November 2024",
     "title": "BIS Notification for H Acid",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of H Acid.",
@@ -162,7 +146,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 10,
     "color": "#6C5B7B",
-    "tagType": "K Acid",
     "date": "14 November 2024",
     "title": "BIS Notification for K Acid",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of K Acid.",
@@ -172,7 +155,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 11,
     "color": "#FF6F61",
-    "tagType": "Vinyl Sulphone",
     "date": "14 November 2024",
     "title": "BIS Notification for Vinyl Sulphone",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Vinyl Sulphone.",
@@ -182,7 +164,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 12,
     "color": "#F38630",
-    "tagType": "Electric Fence",
     "date": "14 November 2024",
     "title": "BIS Notification for Electric Fence Energizers",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Electric Fence Energizers.",
@@ -192,7 +173,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 13,
     "color": "#96CEB4",
-    "tagType": "Washing Machines",
     "date": "1 November 2024",
     "title": "BIS Notification for Clothes Washing Machines",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Clothes Washing Machines.",
@@ -202,7 +182,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 14,
     "color": "#337AB7",
-    "tagType": "Plaster Boards",
     "date": "1 November 2024",
     "title": "BIS Notification for Gypsum Plaster Boards",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Gypsum Plaster Boards.",
@@ -212,7 +191,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 15,
     "color": "#FFCC5C",
-    "tagType": "Irrigation Tubes",
     "date": "25 October 2024",
     "title": "BIS Notification for Aluminium alloy tubes for irrigation purposes -welded tubes",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Aluminium alloy tubes for irrigation purposes -welded tubes.",
@@ -222,7 +200,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 16,
     "color": "#A8A7A7",
-    "tagType": "Irrigation Tubes",
     "date": "25 October 2024",
     "title": "BIS Notification for Aluminium alloy tube for irrigation purposes – extruded tube",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Aluminium alloy tube for irrigation purposes – extruded tube.",
@@ -232,7 +209,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 17,
     "color": "#1A8781",
-    "tagType": "Aluminium Rod",
     "date": "25 October 2024",
     "title": "BIS Notification for EC Grade Aluminium Rod produced by Continuous Casting and Rolling",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of EC Grade Aluminium Rod.",
@@ -242,7 +218,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 18,
     "color": "#45ADA8",
-    "tagType": "Aluminium Bars",
     "date": "25 October 2024",
     "title": "BIS Notification for Wrought aluminium and aluminium alloy bars, rods and sections",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Wrought aluminium and aluminium alloy bars, rods and sections.",
@@ -252,7 +227,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 19,
     "color": "#FF6F61",
-    "tagType": "Forging Stock",
     "date": "25 October 2024",
     "title": "BIS Notification for Wrought aluminium and aluminium alloys, forging stock and forgings",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Wrought aluminium and aluminium alloys, forging stock and forgings.",
@@ -262,7 +236,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 20,
     "color": "#96CEB4",
-    "tagType": "Engineering Plate",
     "date": "25 October 2024",
     "title": "QCO Notification for Wrought aluminium and aluminium alloy plate for general engineering purposes",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Wrought aluminium and aluminium alloy plate for general engineering purposes.",
@@ -272,7 +245,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 21,
     "color": "#337AB7",
-    "tagType": "Sheet & Strip",
     "date": "25 October 2024",
     "title": "BIS Notification for Wrought aluminium and aluminium alloy sheet and strip",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Wrought aluminium and aluminium alloy sheet and strip.",
@@ -282,7 +254,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 22,
     "color": "#F38630",
-    "tagType": "Aluminium Wire",
     "date": "25 October 2024",
     "title": "BIS Notification for Wrought aluminium and aluminium alloy wire",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Wrought aluminium and aluminium alloy wire.",
@@ -292,7 +263,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 23,
     "color": "#6C5B7B",
-    "tagType": "Rivet Stock",
     "date": "25 October 2024",
     "title": "BIS Notification for Wrought aluminium and aluminium alloy rivet stock",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Wrought aluminium and aluminium alloy rivet stock.",
@@ -302,7 +272,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 24,
     "color": "#1A8781",
-    "tagType": "Electrical Aluminium",
     "date": "25 October 2024",
     "title": "BIS Notification for Wrought aluminium and aluminium alloy for electrical applications",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Wrought aluminium and aluminium alloy for electrical applications.",
@@ -312,7 +281,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 25,
     "color": "#D9534F",
-    "tagType": "Aluminium Foil",
     "date": "25 October 2024",
     "title": "BIS Notification for Aluminium and aluminium alloy foil",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Aluminium and aluminium alloy foil.",
@@ -322,7 +290,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 26,
     "color": "#FFCC5C",
-    "tagType": "Composite Panel",
     "date": "25 October 2024",
     "title": "BIS Notification for Aluminium composite panel",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Aluminium composite panel.",
@@ -332,7 +299,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 27,
     "color": "#A8A7A7",
-    "tagType": "Extruded Tube",
     "date": "25 October 2024",
     "title": "BIS Notification for Wrought aluminium and aluminium alloys- Extruded round tube and hollow",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Wrought aluminium and aluminium alloys- Extruded round tube and hollow.",
@@ -342,7 +308,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 28,
     "color": "#45ADA8",
-    "tagType": "Electrical Wire",
     "date": "25 October 2024",
     "title": "BIS Notification for Wrought Aluminium Wire for Electrical Purposes",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Wrought Aluminium Wire for Electrical Purposes.",
@@ -352,7 +317,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 29,
     "color": "#FF6F61",
-    "tagType": "Utensils",
     "date": "25 October 2024",
     "title": "BIS Notification for Wrought aluminium and aluminium alloys for manufacture of utensils",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Aluminium for Utensils.",
@@ -362,7 +326,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 30,
     "color": "#96CEB4",
-    "tagType": "Corrugated Sheet",
     "date": "25 October 2024",
     "title": "BIS Notification for Corrugated Aluminium Sheet",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Corrugated Aluminium Sheet.",
@@ -372,7 +335,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 31,
     "color": "#F38630",
-    "tagType": "Aerospace Forging",
     "date": "25 October 2024",
     "title": "BIS Notification for Aluminium alloy forging stock and forgings (Alloy 24345) for aerospace applications",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Aluminium alloy forging stock and forgings.",
@@ -382,7 +344,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 32,
     "color": "#6C5B7B",
-    "tagType": "Solar Collector",
     "date": "14 October 2024",
     "title": "BIS Notification for Solar Flat Plate Collector",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Solar Flat Plate Collector.",
@@ -392,7 +353,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 33,
     "color": "#1A8781",
-    "tagType": "Solar Water Heater",
     "date": "14 October 2024",
     "title": "BIS Notification for Solar Water Heating System",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Solar Water Heating System.",
@@ -402,7 +362,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 34,
     "color": "#FF6F61",
-    "tagType": "Water Tank",
     "date": "14 October 2024",
     "title": "BIS Notification for Storage Water Tank",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Storage Water Tank.",
@@ -412,7 +371,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 35,
     "color": "#337AB7",
-    "tagType": "Webbing Slings",
     "date": "3 October 2024",
     "title": "BIS Notification for Flat woven webbing slings",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Flat webbing slings.",
@@ -422,7 +380,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 36,
     "color": "#6C5B7B",
-    "tagType": "Manila Ropes",
     "date": "3 October 2024",
     "title": "BIS Notification for Textiles — Manila Ropes",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Manila Ropes.",
@@ -432,7 +389,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 37,
     "color": "#FF6F61",
-    "tagType": "Polyester Ropes",
     "date": "3 October 2024",
     "title": "BIS Notification for Fibre Ropes — Polyester",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Fibre Ropes — Polyester.",
@@ -442,7 +398,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 38,
     "color": "#96CEB4",
-    "tagType": "Synthetic Ropes",
     "date": "3 October 2024",
     "title": "BIS Notification for Synthetic Fibre Ropes",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Synthetic Fibre Ropes.",
@@ -452,7 +407,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 39,
     "color": "#F38630",
-    "tagType": "Polyolefin Ropes",
     "date": "3 October 2024",
     "title": "BIS Notification for Mixed Polyolefin Fibre Ropes",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Mixed Polyolefin Fibre Ropes.",
@@ -462,7 +416,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 40,
     "color": "#1A8781",
-    "tagType": "Steel Wire Ropes",
     "date": "3 October 2024",
     "title": "BIS Notification for Steel wire ropes – Fibre main cores",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Steel wire ropes – Fibre main cores – Specification.",
@@ -472,7 +425,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 41,
     "color": "#FFCC5C",
-    "tagType": "Polyamide Ropes",
     "date": "3 October 2024",
     "title": "BIS Notification for Fibre Ropes Polyamide",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Fibre Ropes Polyamide 3-, 4-, 8- and 12- Strand Ropes.",
@@ -482,7 +434,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 42,
     "color": "#D9534F",
-    "tagType": "Polypropylene Ropes",
     "date": "3 October 2024",
     "title": "BIS Notification for Fibre Ropes — Polypropylene",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Fibre Ropes — Polypropylene.",
@@ -492,7 +443,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 43,
     "color": "#45ADA8",
-    "tagType": "Polyethylene Ropes",
     "date": "3 October 2024",
     "title": "BIS Notification for Fibre Ropes Polyethylene",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Fibre Ropes Polyethylene.",
@@ -502,7 +452,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 44,
     "color": "#337AB7",
-    "tagType": "Dual Fibre Ropes",
     "date": "3 October 2024",
     "title": "BIS Notification for Fibre Ropes dual Fibres",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Fibre Ropes dual Fibres.",
@@ -512,7 +461,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 45,
     "color": "#A8A7A7",
-    "tagType": "Flat Head Screws",
     "date": "25 September 2024",
     "title": "BIS Notification for Countersunk flat head screws (common head style) with type H or Type Z Cross Recess – Product Grade A part 2 Steel Screws of Property Class 8.8, Stainless Steel Screws and Non – Ferrous Metal Screws",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Countersunk flat head screws.",
@@ -522,7 +470,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 46,
     "color": "#6C5B7B",
-    "tagType": "Steel Cylinder Pipes",
     "date": "25 September 2024",
     "title": "BIS Notification for Bar or wire Wrapped Steel Cylinder Pipes with Mortar Lining and Coating Including Specials",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “ Wrapped Steel Cylinder Pipes.",
@@ -532,7 +479,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 47,
     "color": "#FF6F61",
-    "tagType": "Deformed Steel Bars",
     "date": "25 September 2024",
     "title": "BIS Notification for High Strength deformed stainless steel bars and wires",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Deformed stainless steel bars and wires.",
@@ -542,7 +488,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 48,
     "color": "#96CEB4",
-    "tagType": "Pipe Flanges",
     "date": "25 September 2024",
     "title": "BIS Notification for Steel Pipe Flanges",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Steel Pipe Flanges.",
@@ -552,7 +497,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 49,
     "color": "#F38630",
-    "tagType": "Food-Grade Tubes",
     "date": "25 September 2024",
     "title": "BIS Notification for Stainless steel tubes for the food and beverage industry",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Stainless steel tubes.",
@@ -562,7 +506,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 50,
     "color": "#1A8781",
-    "tagType": "Chipboard Screws",
     "date": "20 September 2024",
     "title": "BIS Notification for Chipboard Screws – Specification",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Chipboard Screws – Specification.",
@@ -572,7 +515,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 51,
     "color": "#FFCC5C",
-    "tagType": "Wood Screws",
     "date": "20 September 2024",
     "title": "BIS Notification for Cross-recessed Countersunk Head Wood Screws – Specification",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Cross-recessed Countersunk Head Wood Screws – Specification.",
@@ -582,7 +524,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 52,
     "color": "#D9534F",
-    "tagType": "Drilling Screws - Pan Head",
     "date": "20 September 2024",
     "title": "BIS Notification for Fasteners – Cross Recessed Drilling Screws with Tapping Screw Thread Part 1 Pan Head",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Fasteners – Pan Head Drilling Screws.",
@@ -592,7 +533,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 53,
     "color": "#45ADA8",
-    "tagType": "Drilling Screws - Raised Head",
     "date": "20 September 2024",
     "title": "BIS Notification for Fasteners Cross Recessed Drilling Screws with Tapping Screw Thread Part 3 Raised Countersunk Head",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Fasteners Cross Recessed Drilling Screws with Tapping Screw",
@@ -602,7 +542,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 54,
     "color": "#337AB7",
-    "tagType": "Oval Head Screws",
     "date": "20 September 2024",
     "title": "QCO Notification for Cross Recessed Tapping Screw Part 3 Raised Countersunk Oval Head",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “Cross Recessed Tapping Screw Part 3 Raised Countersunk Oval Head.",
@@ -612,7 +551,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 55,
     "color": "#A8A7A7",
-    "tagType": "Flat Head Screws",
     "date": "20 September 2024",
     "title": "BIS Notification for Cross Recessed Tapping Screws Part 2 Countersunk Flat Head",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “Cross Recessed Tapping Screws Part 2 Countersunk Flat Head",
@@ -622,7 +560,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 56,
     "color": "#6C5B7B",
-    "tagType": "Pan Head Screws",
     "date": "20 September 2024",
     "title": "BIS Notification for Cross Recessed Tapping Screws: Part 1 Pan Head",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Cross Recessed Tapping Screws: Part 1 Pan Head.",
@@ -632,7 +569,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 57,
     "color": "#FF6F61",
-    "tagType": "Drilling Screws - Countersunk",
     "date": "20 September 2024",
     "title": "BIS Notification for Drywall Screws – Specification",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Drywall Screws – Specification.",
@@ -642,7 +578,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 58,
     "color": "#337AB7",
-    "tagType": "Drilling Screws ",
     "date": "20 September 2024",
     "title": "BIS Notification for Fasteners – Cross Recessed Drilling Screws with Tapping Screw Thread Part 2 Countersunk Head",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “Fasteners – Cross Recessed Drilling Screws with Tapping..",
@@ -652,7 +587,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 59,
     "color": "#6B5B95",
-    "tagType": "Drilling Screws - Hexagon Washer",
     "date": "20 September 2024",
     "title": "BIS Notification for Fasteners – Hexagon Washer Head Drilling Screws with Tapping Screw Thread",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Hexagon Washer Head Drilling Screws.",
@@ -662,7 +596,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 60,
     "color": "#88B04B",
-    "tagType": "Screws - Countersunk Flat Head",
     "date": "20 September 2024",
     "title": "BIS Notification for Countersunk Flat Head Screws (Common head Style) With Type H or Type Z Cross Recess – Product Grade A Part 1 Steel Screws of Property Class 4.8",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of “Countersunk Flat Head Screws (Common head Style) With..",
@@ -672,7 +605,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 61,
     "color": "#FFA07A",
-    "tagType": "Gypsum Based Building Materials",
     "date": "20 September 2024",
     "title": "BIS Notification for Gypsum Based Building Materials",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Gypsum Based Building Materials.",
@@ -682,7 +614,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 62,
     "color": "#00CED1",
-    "tagType": "Screws - Raised Countersunk Head",
     "date": "20 September 2024",
     "title": "BIS Notification for Raised countersunk head screws (Common Head Style) with type H or type Z cross recess – Product grade A",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Raised Countersunk Head Screws with Cross Recess.",
@@ -692,7 +623,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 63,
     "color": "#FFB347",
-    "tagType": "Screws - Pan Head",
     "date": "20 September 2024",
     "title": "BIS Notification for Pan Head Screws With Type H or Type Z Cross Recess – Product Grade A",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Pan Head Screws with Cross Recess.",
@@ -702,7 +632,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 64,
     "color": "#9ACD32",
-    "tagType": "Flux Cored Solder Wire",
     "date": "18 September 2024",
     "title": "BIS Notification for Flux Cored Solder Wire",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Flux Cored Solder Wire.",
@@ -712,7 +641,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 65,
     "color": "#E9967A",
-    "tagType": "Chain Pipe Wrenches",
     "date": "17 September 2024",
     "title": "BIS Notification for Chain Pipe Wrenches",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Chain Pipe Wrenches.",
@@ -722,7 +650,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 66,
     "color": "#20B2AA",
-    "tagType": "Open Ended Slugging Wrenches",
     "date": "17 September 2024",
     "title": "BIS Notification for Open Ended Slugging Wrenches (Spanners)",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Open Ended Slugging Wrenches.",
@@ -732,7 +659,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 67,
     "color": "#9370DB",
-    "tagType": "Ring Slugging Wrenches",
     "date": "17 September 2024",
     "title": "BIS Notification for Ring Slugging Wrenches (Spanners)",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Ring Slugging Wrenches.",
@@ -742,7 +668,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 68,
     "color": "#DC143C",
-    "tagType": "Open-jaw Adjustable Wrenches",
     "date": "17 September 2024",
     "title": "BIS Notification for Single-ended Open-jaw Adjustable Wrenches",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Open-jaw Adjustable Wrenches.",
@@ -752,7 +677,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 69,
     "color": "#00FA9A",
-    "tagType": "Open-Jaw Wrenches",
     "date": "17 September 2024",
     "title": "BIS Notification for Open-Jaw Wrenches",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Open-Jaw Wrenches.",
@@ -762,7 +686,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 70,
     "color": "#DA70D6",
-    "tagType": "Ring Wrenches",
     "date": "17 September 2024",
     "title": "BIS Notification for Ring Wrenches",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Ring Wrenches.",
@@ -772,7 +695,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 71,
     "color": "#F08080",
-    "tagType": "Pipe Wrenches - General Purpose",
     "date": "17 September 2024",
     "title": "BIS Notification for Pipe Wrenches General Purpose",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Pipe Wrenches General Purpose.",
@@ -782,7 +704,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 72,
     "color": "#2E8B57",
-    "tagType": "Pipe Wrenches - Heavy Duty",
     "date": "17 September 2024",
     "title": "BIS Notification for Pipe Wrenches – Heavy Duty",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Pipe Wrenches – Heavy Duty.",
@@ -792,7 +713,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 73,
     "color": "#8A2BE2",
-    "tagType": "Cutting Pliers",
     "date": "17 September 2024",
     "title": "BIS Notification for Combination Side Cutting Pliers",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Cutting Pliers.",
@@ -802,7 +722,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 74,
     "color": "#FFB347",
-    "tagType": "Electrical Appliances",
     "date": "11 September 2024",
     "title": "BIS Notification for Safety of Household, Commercial and Similar Electrical Appliances",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Safety of Household, Commercial and Similar Electrical Appliances.",
@@ -812,7 +731,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 75,
     "color": "#6B5B95",
-    "tagType": "Hinges",
     "date": "26 July 2024",
     "title": "BIS Notification for Hinges",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Hinges.",
@@ -822,7 +740,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 76,
     "color": "#00BFFF",
-    "tagType": "Steel Wires & Ropes",
     "date": "3 July 2024",
     "title": "BIS for Steel Wires or Strands, Nylon or Wire Ropes and Wire mesh",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Steel Wires and related products.",
@@ -832,7 +749,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 77,
     "color": "#DC143C",
-    "tagType": "Textiles - Packaging",
     "date": "4 June 2024",
     "title": "BIS Notification for HDPE/PP Woven Sacks for Packaging Fertilizers",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of HDPE/PP Woven Sacks for fertilizers.",
@@ -842,7 +758,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 78,
     "color": "#FFD700",
-    "tagType": "Textiles - Mail Sacks",
     "date": "4 June 2024",
     "title": "BIS Notification for PP/ HDPE Laminated Woven Sacks for Mail Sorting, Storage, Transport and Distribution",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Mail Sorting & Transport Sacks.",
@@ -852,7 +767,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 79,
     "color": "#20B2AA",
-    "tagType": "Cement Packaging",
     "date": "4 June 2024",
     "title": "BIS Notification for Polypropylene (PP) Woven, Laminated, Block Bottom Valve Sacks for Packaging of 50 kg Cement",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Cement Packaging Sacks.",
@@ -862,7 +776,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 80,
     "color": "#A0522D",
-    "tagType": "Chains & Sprockets",
     "date": "3 June 2024",
     "title": "BIS Notification for Precision Roller and Bush Chains, Attachments and Associated Chains Sprockets",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Chains and Sprockets.",
@@ -872,7 +785,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 81,
     "color": "#5F9EA0",
-    "tagType": "Nickel Powder",
     "date": "3 May 2024",
     "title": "BIS Notification for Nickel Powder",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Nickel Powder.",
@@ -882,7 +794,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 82,
     "color": "#9ACD32",
-    "tagType": "Copper",
     "date": "3 May 2024",
     "title": "BIS Notification for Copper",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Copper.",
@@ -892,7 +803,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 83,
     "color": "#FF69B4",
-    "tagType": "Aluminium Alloys",
     "date": "3 May 2024",
     "title": "BIS Notification for Cast aluminium and its alloys",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Cast Aluminium alloys and its alloys.",
@@ -902,7 +812,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 84,
     "color": "#8A2BE2",
-    "tagType": "Aluminium",
     "date": "3 May 2024",
     "title": "BIS Notification for High purity primary aluminum ingot",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of High purity primary aluminum ingot.",
@@ -912,7 +821,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 85,
     "color": "#00CED1",
-    "tagType": "Aluminium",
     "date": "3 May 2024",
     "title": "BIS Notification for Aluminum alloy ingots for remelting",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Aluminum alloy ingots for remelting.",
@@ -922,7 +830,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 86,
     "color": "#FF6347",
-    "tagType": "Aluminium",
     "date": "3 May 2024",
     "title": "BIS Notification for Primary aluminium ingots for remelting",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Primary aluminium ingots for remelting.",
@@ -932,7 +839,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 87,
     "color": "#DAA520",
-    "tagType": "Aluminium",
     "date": "3 May 2024",
     "title": "BIS Notification for Aluminum ingots billets and wire bars",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Aluminum ingots billets and wire bars.",
@@ -942,7 +848,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 88,
     "color": "#6495ED",
-    "tagType": "Furniture Hardware",
     "date": "2 May 2024",
     "title": "BIS Notification for Telescopic Ball Bearing Drawer Slides",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Telescopic Ball Bearing Drawer Slides.",
@@ -952,7 +857,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 89,
     "color": "#FF8C00",
-    "tagType": "Copper Products",
     "date": "25 April 2024",
     "title": "BIS Notification for Copper Products",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Copper Products.",
@@ -962,7 +866,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 90,
     "color": "#7FFF00",
-    "tagType": "Agro Textiles",
     "date": "28 March 2024",
     "title": "BIS Notification for Agro Textiles",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Agro Textiles.",
@@ -972,7 +875,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 91,
     "color": "#CD5C5C",
-    "tagType": "Plywood",
     "date": "15 March 2024",
     "title": "BIS Notification for Plywood for general purposes",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Plywood for general purposes.",
@@ -982,7 +884,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 92,
     "color": "#4169E1",
-    "tagType": "Plywood",
     "date": "15 March 2024",
     "title": "BIS Notification for Wooden flush door shutters (solid core type) – Plywood face panels",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Plywood face panels.",
@@ -992,7 +893,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 93,
     "color": "#DC143C",
-    "tagType": "Marine Plywood",
     "date": "15 March 2024",
     "title": "BIS Notification for Marine plywood",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Marine plywood.",
@@ -1002,7 +902,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 94,
     "color": "#B8860B",
-    "tagType": "Fire Retardant Plywood",
     "date": "15 March 2024",
     "title": "BIS Notification for Fire retardant plywood",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Fire retardant plywood.",
@@ -1012,7 +911,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 95,
     "color": "#40E0D0",
-    "tagType": "Decorative Plywood",
     "date": "15 March 2024",
     "title": "BIS Notification for Veneered decorative plywood",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Veneered decorative plywood.",
@@ -1022,7 +920,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 96,
     "color": "#FF1493",
-    "tagType": "Board Panels",
     "date": "15 March 2024",
     "title": "BIS Notification for Particle board and hardboard face panels",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Particle board and hardboard face panels.",
@@ -1032,7 +929,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 97,
     "color": "#6A5ACD",
-    "tagType": "Plywood Panels",
     "date": "15 March 2024",
     "title": "BIS Notification for Plywood face panels",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Plywood face panels.",
@@ -1042,7 +938,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 98,
     "color": "#00FA9A",
-    "tagType": "Hardboard Panels",
     "date": "15 March 2024",
     "title": "BIS Notification for Fibre Hardboard Face Panels",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Fibre Hardboard Face Panels.",
@@ -1052,7 +947,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 99,
     "color": "#4B0082",
-    "tagType": "Plywood",
     "date": "15 March 2024",
     "title": "BIS Notification for Plywood for concrete shuttering works",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Plywood for concrete shuttering works.",
@@ -1062,7 +956,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 100,
     "color": "#5F9EA0",
-    "tagType": "Plywood",
     "date": "15 March 2024",
     "title": "BIS Notification for Structural plywood",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Structural plywood.",
@@ -1072,7 +965,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 101,
     "color": "#FF4500",
-    "tagType": "Mechanical",
     "date": "6 March 2024",
     "title": "BIS Notification for V-Belts",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of V-Belts.",
@@ -1082,7 +974,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 102,
     "color": "#2E8B57",
-    "tagType": "Construction",
     "date": "6 March 2024",
     "title": "BIS Notification for Glass Fibre Reinforced Gypsum Panels",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Glass Fibre Reinforced Gypsum Panels.",
@@ -1092,7 +983,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 103,
     "color": "#FF69B4",
-    "tagType": "Construction",
     "date": "6 March 2024",
     "title": "BIS Notification for Reinforced Gypsum Plaster Boards and Ceiling Tiles",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Reinforced Gypsum Plaster Boards and Ceiling Tiles.",
@@ -1102,7 +992,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 104,
     "color": "#D2691E",
-    "tagType": "Cooling Appliances",
     "date": "5 March 2024",
     "title": "BIS Notification for Evaporative Air Coolers (Desert Coolers)",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Evaporative Air Coolers (Desert Coolers).",
@@ -1112,7 +1001,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 105,
     "color": "#708090",
-    "tagType": "Construction",
     "date": "5 March 2024",
     "title": "BIS Notification for Asbestos or Fibre Cement based Products",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Asbestos or Fibre Cement based Products.",
@@ -1122,7 +1010,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 106,
     "color": "#A52A2A",
-    "tagType": "Engines",
     "date": "5 March 2024",
     "title": "BIS Notification for Diesel Engines",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Diesel Engines NOx Reduction Agent AUS 32 Specification.",
@@ -1132,7 +1019,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 107,
     "color": "#20B2AA",
-    "tagType": "Electrical",
     "date": "5 March 2024",
     "title": "BIS Notification for Electrical appliance for commercial dispensing and vending",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Electrical appliance for commercial dispensing and vending.",
@@ -1142,7 +1028,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 108,
     "color": "#9370DB",
-    "tagType": "Electrical",
     "date": "5 March 2024",
     "title": "BIS Notification for Electrical appliance for domestic clothes washing",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Electrical appliance for domestic clothes washing.",
@@ -1152,7 +1037,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 109,
     "color": "#556B2F",
-    "tagType": "Electrical",
     "date": "5 March 2024",
     "title": "BIS Notification for Electrical appliance- Fans",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Electrical appliance- fans for Indian marketplace.",
@@ -1162,7 +1046,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 110,
     "color": "#CD853F",
-    "tagType": "Electrical",
     "date": "5 March 2024",
     "title": "QCO Notification for Electric Water Heaters",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Electric Water Heaters.",
@@ -1172,7 +1055,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 111,
     "color": "#8FBC8F",
-    "tagType": "Electrical",
     "date": "5 March 2024",
     "title": "BIS Notification for Electrical appliances for skin or hair care",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Electrical Appliances for Skin and Hair care.",
@@ -1182,7 +1064,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 112,
     "color": "#C71585",
-    "tagType": "Kitchen",
     "date": "5 March 2024",
     "title": "BIS Notification for Electrical Appliances for Kitchen",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Electrical Appliances for Kitchen.",
@@ -1192,7 +1073,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 113,
     "color": "#9ACD32",
-    "tagType": "Water Meter",
     "date": "5 March 2024",
     "title": "BIS Notification Water Meter and Accessories",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Water Meter and Accessories.",
@@ -1202,7 +1082,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 114,
     "color": "#FFA07A",
-    "tagType": "PVC",
     "date": "26 February 2024",
     "title": "BIS Notification for Poly Vinyl Chloride (PVC) Homopolymers",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Poly Vinyl Chloride (PVC) Homopolymers.",
@@ -1212,7 +1091,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 115,
     "color": "#FFB6C1",
-    "tagType": "Plastic",
     "date": "26 February 2024",
     "title": "BIS Notification for Polypropylene (PP) Materials for Moulding and Extrusion",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Polypropylene (PP) Materials for Moulding and Extrusion.",
@@ -1222,7 +1100,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 116,
     "color": "#8B0000",
-    "tagType": "Hygiene",
     "date": "22 February 2024",
     "title": "BIS Notification for Baby Diaper",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Baby Diaper for Indian marketplace.",
@@ -1232,7 +1109,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 117,
     "color": "#00FF7F",
-    "tagType": "Hygiene",
     "date": "22 February 2024",
     "title": "BIS Notification for Bedsheet and Pillow Cover",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Bedsheet and Pillow Cover.",
@@ -1242,7 +1118,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 118,
     "color": "#4682B4",
-    "tagType": "Hygiene",
     "date": "22 February 2024",
     "title": "BIS Notification for Dental bib/Napkins",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Dental bib/Napkins.",
@@ -1252,7 +1127,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 119,
     "color": "#FFDEAD",
-    "tagType": "Appliances",
     "date": "22 February 2024",
     "title": "BIS Notification for Self-Contained Drinking Water Cooler",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Self-Contained Drinking Water Cooler.",
@@ -1262,7 +1136,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 120,
     "color": "#BC8F8F",
-    "tagType": "Hygiene",
     "date": "22 February 2024",
     "title": "BIS Notification for Reusable Sanitary Pad Sanitary Napkin Period Panties",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Reusable Sanitary Pad Sanitary Napkin Period Panties.",
@@ -1272,7 +1145,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 121,
     "color": "#00FFFF",
-    "tagType": "Hygiene",
     "date": "22 February 2024",
     "title": "BIS Notification for Sanitary napkins",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Sanitary napkins for Indian marketplace.",
@@ -1282,7 +1154,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 122,
     "color": "#DA70D6",
-    "tagType": "Hygiene",
     "date": "22 February 2024",
     "title": "BIS Notification for Shoe covers",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Shoe covers for Indian marketplace.",
@@ -1292,7 +1163,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 123,
     "color": "#8B008B",
-    "tagType": "Electrical",
     "date": "1 January 2024",
     "title": "BIS Notification for Electrical Accessories",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Electrical Accessories.",
@@ -1302,7 +1172,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 124,
     "color": "#4682B4",
-    "tagType": "Laboratory",
     "date": "1 January 2024",
     "title": "BIS Notification for Laboratory Glassware",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Laboratory Glassware.",
@@ -1312,7 +1181,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 125,
     "color": "#CD5C5C",
-    "tagType": "Automotive",
     "date": "11 December 2023",
     "title": "BIS Notification for Cycle and Rickshaw Tyres & Tubes",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Cycle and Rickshaw Tyres & Tubes.",
@@ -1322,7 +1190,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 126,
     "color": "#2F4F4F",
-    "tagType": "Security",
     "date": "8 December 2023",
     "title": "BIS Notification for Safe Deposit Locker Cabinets",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Safe Deposit Locker Cabinets.",
@@ -1332,7 +1199,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 127,
     "color": "#DAA520",
-    "tagType": "Packaging",
     "date": "6 December 2023",
     "title": "BIS Notification for HDPE/PP Woven Sacks for Packaging of 25 kg Polymer Materials",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Textiles — HDPE/PP Woven Sacks for Packaging of 25 kg Polymer Materials.",
@@ -1342,7 +1208,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 128,
     "color": "#3CB371",
-    "tagType": "Measurement",
     "date": "1 November 2023",
     "title": "BIS Legal Metrology – Material Measures of Length",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Material Measures of Length.",
@@ -1352,7 +1217,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 129,
     "color": "#9932CC",
-    "tagType": "Hardware",
     "date": "23 October 2023",
     "title": "BIS Notification for Door Fittings",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Door Fittings.",
@@ -1362,7 +1226,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 130,
     "color": "#D2691E",
-    "tagType": "Packaging",
     "date": "23 October 2023",
     "title": "BIS Notification for Drums and Tins",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Drums and Tins.",
@@ -1372,7 +1235,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 131,
     "color": "#40E0D0",
-    "tagType": "Safety",
     "date": "23 October 2023",
     "title": "BIS Notification Helmets for Police Force, Civil Defence and Personal Protection",
     "description": "Important update on mandatory BIS Certification for Indian manufacturers and importers of Helmets for Police Force, Civil Defence, and Personal Protection.",
@@ -1382,7 +1244,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 132,
     "color": "#DC143C",
-    "tagType": "Appliances",
     "date": "20 January 2023",
     "title": "BIS Notification for Bottled Water Dispensers",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Bottled Water Dispensers.",
@@ -1392,7 +1253,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 133,
     "color": "#708090",
-    "tagType": "Furniture",
     "date": "22 March 2022",
     "title": "Implementation of IS 17633: 2022 Specification for Tables and Desks",
     "description": "This is to notify all manufacturers, suppliers, and stakeholders regarding implementation of IS 17633: 2022 Specification for Tables and Desks.",
@@ -1402,7 +1262,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 134,
     "color": "#A0522D",
-    "tagType": "Cookware",
     "date": "1 January 1970",
     "title": "BIS Notification for Rubber Gaskets for Pressure Cookers",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Rubber Gaskets for Pressure Cookers.",
@@ -1412,7 +1271,6 @@ export const BIS_QCO_UPDATES_LIST = [
   {
     "id": 135,
     "color": "#6495ED",
-    "tagType": "Electrical",
     "date": "1 January 1970",
     "title": "BIS Notification for Electric Cable for Photovoltaic",
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Electric Cable for Photovoltaic.",

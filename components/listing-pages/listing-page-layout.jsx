@@ -16,8 +16,14 @@ const ListingPageLayout = ({
   items,
   items_not_found,
 }) => {
-  const { currentItems, currentPage, totalPages, handlePageChange } =
-    useListingPage({ items });
+  const {
+    currentItems,
+    currentPage,
+    totalPages,
+    handlePageChange,
+    searchQueryText,
+    handleSearchChange,
+  } = useListingPage({ items });
 
   return (
     <>
@@ -31,7 +37,11 @@ const ListingPageLayout = ({
             description={hero.description}
           />
           {/* Search Bar Section */}
-          <ListingPageSearchBar placeholder={search_bar.placeholder} />
+          <ListingPageSearchBar
+            placeholder={search_bar.placeholder}
+            searchQueryText={searchQueryText}
+            onSearchChange={handleSearchChange}
+          />
           {/* Listing Page Grid Section */}
           <ListingPageGrid>
             {currentItems.length > 0

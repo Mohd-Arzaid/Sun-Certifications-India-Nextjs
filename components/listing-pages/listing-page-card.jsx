@@ -3,28 +3,21 @@ import { FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ListingPageCard = ({ item }) => {
-  const { color, tagType, date, title, description, pdfUrl, href } = item;
+  const { color, date, title, description, pdfUrl, href } = item;
 
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-[0_15px_30px_-10px_rgba(0,0,0,0.1)] h-full flex flex-col">
       <div className="h-3 md:h-4" style={{ backgroundColor: color }} />
 
       <div className="p-5 md:p-8 flex flex-col flex-grow">
-        <div className="flex items-center justify-between mb-5">
-          <span
-            className="px-4 py-1.5 font-geist font-medium text-sm rounded-full"
-            style={{
-              backgroundColor: `${color}10`,
-              color: color,
-            }}
-          >
-            {tagType}
-          </span>
-          <span className="text-gray-500 font-geist text-sm flex gap-2 items-center justify-center">
-            <span className="w-2 h-2 rounded-full bg-[#1A8781]" />
-            {date}
-          </span>
-        </div>
+        {date && (
+          <div className="flex items-center justify-start mb-5">
+            <span className="text-gray-500 font-geist flex gap-2 items-center justify-center">
+              <span className="w-2 h-2 rounded-full bg-[#1A8781]" />
+              {date}
+            </span>
+          </div>
+        )}
 
         <Link href={href}>
           <h3 className="font-playfair text-2xl font-bold text-[#1E1E1E] mb-3 min-h-[4rem] flex items-start cursor-pointer hover:text-blue-600 transition-colors duration-200">
