@@ -41,6 +41,16 @@ import NABL from "@/components/services-pages/NABL/NABL";
 import { NABL_SEO_META_TAGS } from "@/components/services-pages/NABL/NABL-seo-meta-tags";
 import APEDARegistration from "@/components/services-pages/APEDARegistration/APEDARegistration";
 import { APEDA_REGISTRATION_SEO_META_TAGS } from "@/components/services-pages/APEDARegistration/APEDARegistration-seo-meta-tags";
+import IntroductiontoERDAandERDACertificate from "@/components/services-pages/IntroductiontoERDAandERDACertificate/IntroductiontoERDAandERDACertificate";
+import { ERDA_CERTIFICATE_SEO_META_TAGS } from "@/components/services-pages/IntroductiontoERDAandERDACertificate/IntroductiontoERDAandERDACertificate-seo-meta-tags";
+import ICATCertificateinIndia from "@/components/services-pages/ICATCertificateinIndia/ICATCertificateinIndia";
+import { ICAT_CERTIFICATE_SEO_META_TAGS } from "@/components/services-pages/ICATCertificateinIndia/ICATCertificateinIndia-seo-meta-tags";
+import WhatisSASOCertificateorSABERCertification from "@/components/services-pages/WhatisSASOCertificateorSABERCertification/WhatisSASOCertificateorSABERCertification";
+import { SASO_SABER_CERTIFICATION_SEO_META_TAGS } from "@/components/services-pages/WhatisSASOCertificateorSABERCertification/WhatisSASOCertificateorSABERCertification-seo-meta-tags";
+import STQCCertificateinIndia from "@/components/services-pages/STQCCertificateinIndia/STQCCertificateinIndia";
+import { STQC_CERTIFICATE_SEO_META_TAGS } from "@/components/services-pages/STQCCertificateinIndia/STQCCertificateinIndia-seo-meta-tags";
+import TACCertificateinIndia from "@/components/services-pages/TACCertificateinIndia/TACCertificateinIndia";
+import { TAC_CERTIFICATE_SEO_META_TAGS } from "@/components/services-pages/TACCertificateinIndia/TACCertificateinIndia-seo-meta-tags";
 
 const SERVICES = {
   "a-guide-to-bis-certification-for-foreign-manufacturers-indian-bis": {
@@ -129,6 +139,26 @@ const SERVICES = {
   "apeda-registration-india": {
     component: APEDARegistration,
     metadata: APEDA_REGISTRATION_SEO_META_TAGS,
+  },
+  "erda-certificate-india": {
+    component: IntroductiontoERDAandERDACertificate,
+    metadata: ERDA_CERTIFICATE_SEO_META_TAGS,
+  },
+  "icat-certificate-india": {
+    component: ICATCertificateinIndia,
+    metadata: ICAT_CERTIFICATE_SEO_META_TAGS,
+  },
+  "saso-saber-certification": {
+    component: WhatisSASOCertificateorSABERCertification,
+    metadata: SASO_SABER_CERTIFICATION_SEO_META_TAGS,
+  },
+  "stqc-certificate-india": {
+    component: STQCCertificateinIndia,
+    metadata: STQC_CERTIFICATE_SEO_META_TAGS,
+  },
+  "tac-certificate-india": {
+    component: TACCertificateinIndia,
+    metadata: TAC_CERTIFICATE_SEO_META_TAGS,
   },
 };
 
