@@ -14,7 +14,6 @@ const ListingPageLayout = ({
   hero,
   search_bar,
   items,
-  items_not_found,
 }) => {
   const {
     currentItems,
@@ -48,12 +47,8 @@ const ListingPageLayout = ({
               ? currentItems.map((item) => (
                   <ListingPageCard key={item.id} item={item} />
                 ))
-              : items_not_found && (
-                  <ListingPageItemsNotFound
-                    message={items_not_found.message}
-                    hint={items_not_found.hint}
-                    showContactButtons={items_not_found.showContactButtons}
-                  />
+              : (
+                  <ListingPageItemsNotFound />
                 )}
           </ListingPageGrid>
         </div>

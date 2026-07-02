@@ -1,68 +1,5 @@
 export const BIS_QCO_UPDATES_LIST = [
   {
-    "id": 136,
-    "color": "#1A8781",
-    "date": "15 June 2025",
-    "title": "BIS Notification for “Writing and Printing Paper” ",
-    "description": "BIS certification is now mandatory for Writing and Printing Paper (IS 1848 Part 1:2018) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
-    "pdfUrl": "/pdf/bis-qco-for-writing-and-printing-paper.pdf",
-    "href": "/bis-qco-updates/bis-certificate-for-writing-and-printing-paper"
-  },
-  {
-    "id": 137,
-    "color": "#DC143C",
-    "date": "15 June 2025",
-    "title": "BIS Notification for “Coated Papers and Board ( Art and Chrome )”",
-    "description": "BIS license now mandatory for Coated Papers & Board (Art and Chrome) from 17th Oct 2025. ISI mark required to sell in India.",
-    "pdfUrl": "/pdf/bis-qco-for-coated-papers-and-board-art-and-chrome.pdf",
-    "href": "/bis-qco-updates/bis-certificate-for-coated-papers-and-board-art-and-chrome-"
-  },
-  {
-    "id": 139,
-    "color": "#DC143C",
-    "date": "15 June 2025",
-    "title": "BIS QCO Notification for “Refined Zinc”",
-    "description": "BIS certification is now mandatory for Refined Zinc  (IS 209:2024) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
-    "pdfUrl": "/pdf/bis-qco-for-refined-zinc.pdf",
-    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-refined-zinc"
-  },
-  {
-    "id": 140,
-    "color": "#708090",
-    "date": "15 June 2025",
-    "title": "BIS QCO Notification for “Tin Ingot”",
-    "description": "BIS certification is now mandatory for Tin Ingot  (IS 26:2024) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
-    "pdfUrl": "/pdf/bis-qco-for-tin-ingot.pdf",
-    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-tin-ingot"
-  },
-  {
-    "id": 138,
-    "color": "#708090",
-    "date": "13 June 2025",
-    "title": "BIS QCO Notification for “Steel and Steel Products”",
-    "description": "All steel and steel products that are notified under the Quality Control Order (QCO) and are intended for import must comply with the relevant Indian Standards for their respective input materials.",
-    "pdfUrl": "/pdf/bis-qco-for-steel-and-steel-products.pdf",
-    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-steel-and-steel-products"
-  },
-  {
-    "id": 141,
-    "color": "#DC143C",
-    "date": "13 June 2025",
-    "title": "BIS QCO Notification for “Refined Nickel”",
-    "description": "BIS certification is now mandatory for Refined Nickel (IS 2782:2023) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
-    "pdfUrl": "/pdf/bis-qco-for-refined-nickel.pdf",
-    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-refined-nickel"
-  },
-  {
-    "id": 142,
-    "color": "#708090",
-    "date": "13 June 2025",
-    "title": "BIS QCO Notification for “Primary Lead”",
-    "description": "BIS certification is now mandatory for Primary Lead (IS 27:2023) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
-    "pdfUrl": "/pdf/bis-qco-for-primary-lead.pdf",
-    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-primary-lead"
-  },
-  {
     "id": 1,
     "color": "#1A8781",
     "date": "13 February 2025",
@@ -1276,5 +1213,68 @@ export const BIS_QCO_UPDATES_LIST = [
     "description": "Important update on mandatory BIS Certification for manufacturers and importers of Electric Cable for Photovoltaic.",
     "pdfUrl": "/pdf/bis-qco-for-electric-cable-for-photovoltaic.pdf",
     "href": "/bis-qco-updates/bis-certificate-for-electric-cable-for-photovoltaic"
+  },
+  {
+    "id": 136,
+    "color": "#1A8781",
+    "date": "15 June 2025",
+    "title": "BIS Notification for “Writing and Printing Paper” ",
+    "description": "BIS certification is now mandatory for Writing and Printing Paper (IS 1848 Part 1:2018) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
+    "pdfUrl": "/pdf/bis-qco-for-writing-and-printing-paper.pdf",
+    "href": "/bis-qco-updates/bis-certificate-for-writing-and-printing-paper"
+  },
+  {
+    "id": 137,
+    "color": "#DC143C",
+    "date": "15 June 2025",
+    "title": "BIS Notification for “Coated Papers and Board ( Art and Chrome )”",
+    "description": "BIS license now mandatory for Coated Papers & Board (Art and Chrome) from 17th Oct 2025. ISI mark required to sell in India.",
+    "pdfUrl": "/pdf/bis-qco-for-coated-papers-and-board-art-and-chrome.pdf",
+    "href": "/bis-qco-updates/bis-certificate-for-coated-papers-and-board-art-and-chrome-"
+  },
+  {
+    "id": 138,
+    "color": "#708090",
+    "date": "13 June 2025",
+    "title": "BIS QCO Notification for “Steel and Steel Products”",
+    "description": "All steel and steel products that are notified under the Quality Control Order (QCO) and are intended for import must comply with the relevant Indian Standards for their respective input materials.",
+    "pdfUrl": "/pdf/bis-qco-for-steel-and-steel-products.pdf",
+    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-steel-and-steel-products"
+  },
+  {
+    "id": 139,
+    "color": "#DC143C",
+    "date": "15 June 2025",
+    "title": "BIS QCO Notification for “Refined Zinc”",
+    "description": "BIS certification is now mandatory for Refined Zinc  (IS 209:2024) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
+    "pdfUrl": "/pdf/bis-qco-for-refined-zinc.pdf",
+    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-refined-zinc"
+  },
+  {
+    "id": 140,
+    "color": "#708090",
+    "date": "15 June 2025",
+    "title": "BIS QCO Notification for “Tin Ingot”",
+    "description": "BIS certification is now mandatory for Tin Ingot  (IS 26:2024) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
+    "pdfUrl": "/pdf/bis-qco-for-tin-ingot.pdf",
+    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-tin-ingot"
+  },
+  {
+    "id": 141,
+    "color": "#DC143C",
+    "date": "13 June 2025",
+    "title": "BIS QCO Notification for “Refined Nickel”",
+    "description": "BIS certification is now mandatory for Refined Nickel (IS 2782:2023) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
+    "pdfUrl": "/pdf/bis-qco-for-refined-nickel.pdf",
+    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-refined-nickel"
+  },
+  {
+    "id": 142,
+    "color": "#708090",
+    "date": "13 June 2025",
+    "title": "BIS QCO Notification for “Primary Lead”",
+    "description": "BIS certification is now mandatory for Primary Lead (IS 27:2023) from 17th October 2025. All manufacturers and importers must get a BIS license and use the ISI mark to sell in India.",
+    "pdfUrl": "/pdf/bis-qco-for-primary-lead.pdf",
+    "href": "/bis-qco-updates/bis-certificate-for-bis-qco-notification-for-primary-lead"
   }
 ];

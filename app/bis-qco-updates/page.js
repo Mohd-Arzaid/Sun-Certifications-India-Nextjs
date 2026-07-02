@@ -1,12 +1,6 @@
 import ListingPageLayout from "@/components/listing-pages/listing-page-layout";
 import { BIS_QCO_UPDATES_LIST } from "./bis-qco-updates-data";
 
-const items_not_found = {
-  message: "No Results found matching your Search Criteria.",
-  hint: "Don't worry! We're here to help you find what you're looking for.",
-  showContactButtons: true,
-};
-
 const hero = {
   heading: "QCO Notifications",
   description:
@@ -24,7 +18,6 @@ const BIS_QCO_Updates = () => {
       hero={hero}
       search_bar={search_bar}
       items={BIS_QCO_UPDATES_LIST}
-      items_not_found={items_not_found}
     />
   );
 };
