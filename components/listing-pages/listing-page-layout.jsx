@@ -16,7 +16,8 @@ const ListingPageLayout = ({
   items,
   items_not_found,
 }) => {
-  const { currentItems , currentPage } = useListingPage({ items });
+  const { currentItems, currentPage, totalPages, handlePageChange } =
+    useListingPage({ items });
 
   return (
     <>
@@ -46,7 +47,11 @@ const ListingPageLayout = ({
                 )}
           </ListingPageGrid>
         </div>
-        <ListingPagePagination />
+        <ListingPagePagination
+          currentPage={currentPage} 
+          totalPages={totalPages}
+          onPageChange={handlePageChange}
+        />
       </div>
     </>
   );

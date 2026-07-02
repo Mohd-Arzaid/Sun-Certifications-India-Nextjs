@@ -1,29 +1,5 @@
 import ListingPageLayout from "@/components/listing-pages/listing-page-layout";
-
-const BIS_QCO_UPDATES_LIST = [
-  {
-    id: 1,
-    color: "#1A8781",
-    tagType: "New QCO",
-    date: "13 February 2025",
-    title: "BIS certification for Work chairs",
-    description:
-      "Important update on mandatory BIS Certification for manufacturers and importers of “ Work chairs.",
-    pdfUrl: "/pdf/bis-qco-for-work-chairs.pdf",
-    href: "/bis-qco-updates/bis-certificate-for-work-chairs",
-  },
-  {
-    id: 2,
-    color: "#C86A31",
-    tagType: "Update",
-    date: "13 February 2025",
-    title: "BIS certification for Chairs and stools",
-    description:
-      "Important update on mandatory BIS Certification for manufacturers and importers of “ General purpose chairs and stools.",
-    pdfUrl: "/pdf/bis-qco-for-chairs-and-stools.pdf",
-    href: "/bis-qco-updates/bis-certificate-for-chairs-and-stools",
-  },
-];
+import { BIS_QCO_UPDATES_LIST } from "./bis-qco-updates-data";
 
 const items_not_found = {
   message: "No Results found matching your Search Criteria.",
