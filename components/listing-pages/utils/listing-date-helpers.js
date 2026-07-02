@@ -1,39 +1,52 @@
+const INVALID_DATE = new Date(0);
+
 export const dateTextToDate = (dateString) => {
   try {
-    const cleanDate = dateString.trim();
-    const date = new Date(cleanDate);
+    const trimmedDateText = dateString.trim();
+    const parsedDate = new Date(trimmedDateText);
 
-    if (!Number.isNaN(date.getTime())) {
-      return date;
+    if (!Number.isNaN(parsedDate.getTime())) {
+      return parsedDate;
     }
 
-    const parts = cleanDate.split(" ");
-    if (parts.length === 3) {
-      const [day, month, year] = parts;
-      return new Date(`${month} ${day}, ${year}`);
+    const dateParts = trimmedDateText.split(" ");
+    if (dateParts.length === 3) {
+      const [dayPart, monthPart, yearPart] = dateParts;
+      return new Date(`${monthPart} ${dayPart}, ${yearPart}`);
     }
 
-    return new Date(0);
+    return INVALID_DATE;
   } catch {
-    return new Date(0);
+    return INVALID_DATE;
   }
 };
 
 export const normalizeDateText = (dateString) => {
-  const date = dateTextToDate(dateString);
+  const parsedDate = dateTextToDate(dateString);
 
-  if (Number.isNaN(date.getTime()) || date.getTime() === 0) {
+  if (Number.isNaN(parsedDate.getTime()) || parsedDate.getTime() === 0) {
     return dateString.trim();
   }
 
-  const day = date.getDate();
-  const month = date.toLocaleString("en-US", { month: "long" });
-  const year = date.getFullYear();
+  const dayNumber = parsedDate.getDate();
+  const monthName = parsedDate.toLocaleString("en-US", { month: "long" });
+  const yearNumber = parsedDate.getFullYear();
 
-  return `${day} ${month} ${year}`;
+  return `${dayNumber} ${monthName} ${yearNumber}`;
 };
 
-export const compareByNewestDate = (a, b) => {
-  const diff = dateTextToDate(b.date).getTime() - dateTextToDate(a.date).getTime();
-  return diff !== 0 ? diff : a.id - b.id;
+export const compareListingItemsNewestFirst = (firstItem, secondItem) => {
+  const firstItemDate = dateTextToDate(firstItem.date);
+  const secondItemDate = dateTextToDate(secondItem.date);
+
+  const secondItemIsNewer =
+    secondItemDate.getTime() - firstItemDate.getTime();
+
+  if (secondItemIsNewer !== 0) {
+    return secondItemIsNewer;
+  }
+
+  const firstItemId = firstItem.id;
+  const secondItemId = secondItem.id;
+  return firstItemId - secondItemId;
 };

@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { compareByNewestDate } from "../utils/listing-date-helpers";
+import { compareListingItemsNewestFirst } from "../utils/listing-date-helpers";
 
 const DEFAULT_ITEMS_PER_PAGE = 6;
 
@@ -23,7 +23,7 @@ export const useListingPage = ({
 
   const sortedItems = useMemo(() => {
     if (!items.length || !items[0]?.date) return items;
-    return [...items].sort(compareByNewestDate);
+    return [...items].sort(compareListingItemsNewestFirst);
   }, [items]);
 
   const totalPages = Math.ceil(sortedItems.length / itemsPerPage);
